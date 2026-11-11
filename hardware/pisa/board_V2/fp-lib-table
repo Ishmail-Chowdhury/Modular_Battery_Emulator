@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Connettori_progetto)(type KiCad)(uri ${KIPRJMOD}/Connettori.pretty)(options "")(descr ""))
+  (lib (name board)(type KiCad)(uri ${KIPRJMOD}/board.pretty)(options "")(descr ""))
+  (lib (name loghi)(type KiCad)(uri ${KIPRJMOD}/Loghi/loghi.pretty)(options "")(descr ""))
+)

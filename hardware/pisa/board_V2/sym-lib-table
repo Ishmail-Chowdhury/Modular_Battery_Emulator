@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Connettori_progetto)(type Legacy)(uri ${KIPRJMOD}/Project_Emulatore_Connettori.lib)(options "")(descr ""))
+  (lib (name board-cache)(type Legacy)(uri ${KIPRJMOD}/board-cache.lib)(options "")(descr ""))
+  (lib (name Board)(type Legacy)(uri ${KIPRJMOD}/Board.lib)(options "")(descr ""))
+  (lib (name Loghi)(type Legacy)(uri ${KIPRJMOD}/Loghi/Loghi.lib)(options "")(descr ""))
+  (lib (name "Pisa_Mux")(type "KiCad")(uri "${KIPRJMOD}/Pisa_Mux.kicad_sym")(options "")(descr "Pisa backplane mux"))
+)

@@ -1,0 +1,20 @@
+{
+  "copper_layers": 2,
+  "footprints_unchanged": 87,
+  "pad_instances_unchanged": 698,
+  "board_outline_unchanged": true,
+  "existing_trace_sections_replaced": {
+    "/Bus5": 7,
+    "/Bus3": 7,
+    "/Bus1": 7
+  },
+  "layout_errors": 0,
+  "unconnected_items": 0,
+  "layout_warnings": 126,
+  "parity_errors": 0,
+  "parity_warnings": 80,
+  "trace_layers": {
+    "F.Cu": 1564,
+    "B.Cu": 1132
+  }
+}

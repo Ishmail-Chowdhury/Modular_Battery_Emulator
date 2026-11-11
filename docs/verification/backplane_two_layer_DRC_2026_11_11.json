@@ -1,0 +1,3704 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T11:25:43",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux1",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux2",
+                    "pos": {
+                        "x": 67.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336be"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux3",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux4",
+                    "pos": {
+                        "x": 87.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux5",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623365d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux6",
+                    "pos": {
+                        "x": 269.45,
+                        "y": 172.45
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233371a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux7",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233372f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux8",
+                    "pos": {
+                        "x": 112.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9378"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux9",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e93b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux10",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 135.04
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233376e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux11",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 131.96
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333783"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux12",
+                    "pos": {
+                        "x": 287.05,
+                        "y": 171.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624edeb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux13",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux14",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux15",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337df"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux16",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux17",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333809"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux18",
+                    "pos": {
+                        "x": 207.5,
+                        "y": 131.65
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec59d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux19",
+                    "pos": {
+                        "x": 212.5,
+                        "y": 132.54
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333834"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux20",
+                    "pos": {
+                        "x": 227.5,
+                        "y": 126.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233384a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux21",
+                    "pos": {
+                        "x": 264.25,
+                        "y": 124.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec847"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Aux22",
+                    "pos": {
+                        "x": 241.95,
+                        "y": 124.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333872"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623481be"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234820e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234825e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e943d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623482fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234834e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234839e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 150.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623483ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 210.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef430"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 210.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef437"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 307.5,
+                        "y": 210.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef43e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 307.5,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef445"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H5",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef44c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H6",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef453"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H7",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 185.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef54e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H8",
+                    "pos": {
+                        "x": 210.0,
+                        "y": 185.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef50f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H9",
+                    "pos": {
+                        "x": 290.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef578"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H10",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 65.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef539"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H11",
+                    "pos": {
+                        "x": 210.0,
+                        "y": 85.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef563"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H12",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 85.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef524"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Value (I1) doesn't match symbol value (Curr conn)",
+            "items": [
+                {
+                    "description": "Footprint I1",
+                    "pos": {
+                        "x": 220.0,
+                        "y": 145.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9bc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint I1",
+                    "pos": {
+                        "x": 220.0,
+                        "y": 145.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9bc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 42.85,
+                        "y": 166.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062338f81"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea06c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea042"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea018"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 46.3,
+                        "y": 179.6
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e8fb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9fee"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J7",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9fc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 295.65,
+                        "y": 189.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e8fce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J9",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea096"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J10",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea108"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e8fe9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J12",
+                    "pos": {
+                        "x": 215.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e8ff7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J13",
+                    "pos": {
+                        "x": 295.55,
+                        "y": 138.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062336039"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J14",
+                    "pos": {
+                        "x": 225.0,
+                        "y": 200.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233608a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J15",
+                    "pos": {
+                        "x": 250.0,
+                        "y": 200.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea646"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint M1",
+                    "pos": {
+                        "x": 280.0,
+                        "y": 140.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000622fd333"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 69.9,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9005"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000622f9d47"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea20b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006231cb5c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea29e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062336cd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Population' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9065"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 298.85,
+                        "y": 157.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea929"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 302.35,
+                        "y": 161.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9045"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 298.85,
+                        "y": 162.75
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9055"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 302.45,
+                        "y": 156.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233200f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 302.25,
+                        "y": 151.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9075"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 298.8,
+                        "y": 152.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062345aad"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R17",
+                    "pos": {
+                        "x": 302.25,
+                        "y": 145.85
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234d2dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 298.8,
+                        "y": 147.15
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234d123"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 250.0,
+                        "y": 140.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006231b3a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 157.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234caf0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 162.65
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234cb3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 152.15
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234cb8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'PN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 146.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234caa2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "board.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+48V] on F.Cu, length 1.8000 mm",
+                    "pos": {
+                        "x": 306.8,
+                        "y": 145.6
+                    },
+                    "uuid": "54ec771a-e6c0-48b2-94e5-836f8361ab8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+48V] on B.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 91.9,
+                        "y": 176.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec93a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+48V] on B.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 91.9,
+                        "y": 176.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec93a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+48V] on B.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 91.9,
+                        "y": 176.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec93a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 35.0,
+                        "y": 55.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006231d372"
+                },
+                {
+                    "description": "Reference field of J5",
+                    "pos": {
+                        "x": 34.8,
+                        "y": 180.6
+                    },
+                    "uuid": "fbafa83d-47c7-4edc-9c00-7ebc6bb58ba8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000622f9d47"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'Conn_34pos_Head' does not match copy in library 'Connettori_progetto'",
+            "items": [
+                {
+                    "description": "Footprint T1",
+                    "pos": {
+                        "x": 250.0,
+                        "y": 140.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006231b3a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006231cb5c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 302.45,
+                        "y": 156.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233200f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux1",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux2",
+                    "pos": {
+                        "x": 67.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336be"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux3",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux4",
+                    "pos": {
+                        "x": 87.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623336e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux6",
+                    "pos": {
+                        "x": 269.45,
+                        "y": 172.45
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233371a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux7",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233372f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux10",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 135.04
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233376e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux11",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 131.96
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333783"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux13",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux14",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux15",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337df"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux16",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623337f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux17",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333809"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux19",
+                    "pos": {
+                        "x": 212.5,
+                        "y": 132.54
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333834"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux20",
+                    "pos": {
+                        "x": 227.5,
+                        "y": 126.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006233384a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux22",
+                    "pos": {
+                        "x": 241.95,
+                        "y": 124.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062333872"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux5",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623365d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062336cd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 298.8,
+                        "y": 152.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062345aad"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 298.8,
+                        "y": 147.15
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234d123"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R17",
+                    "pos": {
+                        "x": 302.25,
+                        "y": 145.85
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006234d2dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 69.9,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9005"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 302.35,
+                        "y": 161.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9045"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 298.85,
+                        "y": 162.75
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9055"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9065"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 302.25,
+                        "y": 151.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9075"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux8",
+                    "pos": {
+                        "x": 112.5,
+                        "y": 135.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e9378"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux9",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 132.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624e93b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea20b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 198.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea29e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistors_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 298.85,
+                        "y": 157.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ea929"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux18",
+                    "pos": {
+                        "x": 207.5,
+                        "y": 131.65
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec59d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux21",
+                    "pos": {
+                        "x": 264.25,
+                        "y": 124.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ec847"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 210.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef430"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 210.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef437"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 307.5,
+                        "y": 210.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef43e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 307.5,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef445"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H5",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef44c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H6",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef453"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H8",
+                    "pos": {
+                        "x": 210.0,
+                        "y": 185.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef50f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H12",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 85.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef524"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H10",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 65.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef539"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H7",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 185.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef54e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H11",
+                    "pos": {
+                        "x": 210.0,
+                        "y": 85.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef563"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Mounting_Holes'",
+            "items": [
+                {
+                    "description": "Footprint H9",
+                    "pos": {
+                        "x": 290.0,
+                        "y": 205.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624ef578"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Socket_Strips'",
+            "items": [
+                {
+                    "description": "Footprint Aux12",
+                    "pos": {
+                        "x": 287.05,
+                        "y": 171.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624edeb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U3 on F.Silkscreen",
+                    "pos": {
+                        "x": 291.9,
+                        "y": 154.38
+                    },
+                    "uuid": "b1094e78-f5a1-4ef7-b2da-77a16d9d81c8"
+                },
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 153.9
+                    },
+                    "uuid": "f2bff7dc-7922-4fc1-9c6a-95dbc3a9db94"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 291.9,
+                        "y": 159.63
+                    },
+                    "uuid": "c55d0708-edc7-409a-96e6-e1aa78cd9527"
+                },
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 159.15
+                    },
+                    "uuid": "d78c605a-7aa1-478f-9635-616abdc9dc68"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 291.9,
+                        "y": 149.13
+                    },
+                    "uuid": "100e59cd-902a-44d1-b836-f4a1c53fa89b"
+                },
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 294.05,
+                        "y": 148.65
+                    },
+                    "uuid": "e81b5b72-e899-4f79-aeec-b9984353ab0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 300.55,
+                        "y": 162.75
+                    },
+                    "uuid": "2eaa483f-643a-417c-a13e-0659299ae297"
+                },
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 302.35,
+                        "y": 162.95
+                    },
+                    "uuid": "e574b066-1b2f-426a-9be5-51c7f024e74f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of I1 on F.Silkscreen",
+                    "pos": {
+                        "x": 225.842,
+                        "y": 154.398
+                    },
+                    "uuid": "35d57fb6-9bfb-4680-ac2e-7e63938cf93f"
+                },
+                {
+                    "description": "Footprint text of I1 (P13)",
+                    "pos": {
+                        "x": 226.477,
+                        "y": 157.827
+                    },
+                    "uuid": "97e78970-9d8f-4f16-8614-2de0d4bf634c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of I1 (P10)",
+                    "pos": {
+                        "x": 226.5024,
+                        "y": 150.1816
+                    },
+                    "uuid": "0c735a36-5a9f-40b3-b15f-f6cfac780bf7"
+                },
+                {
+                    "description": "Segment of I1 on F.Silkscreen",
+                    "pos": {
+                        "x": 225.842,
+                        "y": 146.778
+                    },
+                    "uuid": "e069ab09-db0b-491d-b8c7-d2c464e2dcc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of I1 on F.Silkscreen",
+                    "pos": {
+                        "x": 225.842,
+                        "y": 162.018
+                    },
+                    "uuid": "6a2f4bbb-9dd0-4816-9e22-36a01a54c1d3"
+                },
+                {
+                    "description": "Footprint text of I1 (P16)",
+                    "pos": {
+                        "x": 226.5024,
+                        "y": 165.447
+                    },
+                    "uuid": "a267abcc-8e54-433e-95a8-c080eeb51926"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C6 (P7)",
+                    "pos": {
+                        "x": 153.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "2b38ffa3-84a1-4c08-a52b-8a13f7c67954"
+                },
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 154.412,
+                        "y": 158.509
+                    },
+                    "uuid": "a8fcade4-8ad0-4632-ac77-2770314c9084"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.842,
+                        "y": 151.778
+                    },
+                    "uuid": "6f17bba7-16d8-47a1-ad63-67a70d61f92e"
+                },
+                {
+                    "description": "Footprint text of C6 (P10)",
+                    "pos": {
+                        "x": 166.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "7ab0101e-16f0-4d09-8c98-86b954ff4c7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.412,
+                        "y": 158.509
+                    },
+                    "uuid": "325db95c-1d86-4299-85ca-fd4fac08c74a"
+                },
+                {
+                    "description": "Footprint text of C7 (P7)",
+                    "pos": {
+                        "x": 173.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "f3485a31-35e6-4534-86ec-cc7734366aa3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C7 (P10)",
+                    "pos": {
+                        "x": 186.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "b788fb73-a7a1-45a0-a26f-e560400255ee"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 185.842,
+                        "y": 151.778
+                    },
+                    "uuid": "ce522c34-3ee9-4b65-8931-38d3a1646edb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C7 (P13)",
+                    "pos": {
+                        "x": 186.477,
+                        "y": 162.827
+                    },
+                    "uuid": "dc80dc7c-e363-4b4e-ab16-5390669893e0"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 185.842,
+                        "y": 159.398
+                    },
+                    "uuid": "df8ff4e3-3185-434f-a180-04ace68609ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 194.412,
+                        "y": 166.129
+                    },
+                    "uuid": "90e25be1-3304-4436-b34a-06ca0083ec21"
+                },
+                {
+                    "description": "Footprint text of C8 (P4)",
+                    "pos": {
+                        "x": 193.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "a5390e32-0de2-496d-b046-a055d2dae019"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 185.842,
+                        "y": 167.018
+                    },
+                    "uuid": "0713add0-0d76-4ff8-bb2c-4b97ab543a1b"
+                },
+                {
+                    "description": "Footprint text of C7 (P16)",
+                    "pos": {
+                        "x": 186.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "51437eb2-8cfb-41c0-8554-ef7debd5a6f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 194.412,
+                        "y": 158.509
+                    },
+                    "uuid": "0ddebd6a-1214-402d-a166-500c6c02d92e"
+                },
+                {
+                    "description": "Footprint text of C8 (P7)",
+                    "pos": {
+                        "x": 193.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "82631ac4-a553-41e1-992c-423c43c6071e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 205.842,
+                        "y": 159.398
+                    },
+                    "uuid": "a11f205b-fa35-49b4-9016-8ae6f9326521"
+                },
+                {
+                    "description": "Footprint text of C8 (P13)",
+                    "pos": {
+                        "x": 206.477,
+                        "y": 162.827
+                    },
+                    "uuid": "d4d17580-6dd6-4720-90da-150b924feb6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C8 (P10)",
+                    "pos": {
+                        "x": 206.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "07a1f977-a508-4dc7-96c5-c1a1598a5d98"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 205.842,
+                        "y": 151.778
+                    },
+                    "uuid": "5b686f98-4925-4fed-ba87-9d5937174873"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 194.412,
+                        "y": 173.622
+                    },
+                    "uuid": "0f58d81f-8734-46ce-b05b-0859af42de12"
+                },
+                {
+                    "description": "Footprint text of C8 (P1)",
+                    "pos": {
+                        "x": 193.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "d57d3d2d-88cb-4de3-aead-11b848be99dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of I1 (P1)",
+                    "pos": {
+                        "x": 213.8786,
+                        "y": 165.2184
+                    },
+                    "uuid": "0a73a26e-e626-4b6c-9925-836a23d8ce3b"
+                },
+                {
+                    "description": "Segment of I1 on F.Silkscreen",
+                    "pos": {
+                        "x": 214.412,
+                        "y": 168.622
+                    },
+                    "uuid": "d557c727-9ae4-4e70-a2c0-ce682c39b865"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C8 (P16)",
+                    "pos": {
+                        "x": 206.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "04b39075-391a-45d5-a4cf-ab4e59e03cf1"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 205.842,
+                        "y": 167.018
+                    },
+                    "uuid": "2915ea82-8c7a-493a-8a0a-a5d8c08b481c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of I1 (P7)",
+                    "pos": {
+                        "x": 213.8278,
+                        "y": 149.7752
+                    },
+                    "uuid": "0253dd03-6dd3-4881-90ef-564261bdf8b3"
+                },
+                {
+                    "description": "Segment of I1 on F.Silkscreen",
+                    "pos": {
+                        "x": 214.412,
+                        "y": 153.509
+                    },
+                    "uuid": "e2f7b697-8afc-4751-bbc7-fce699451ceb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of I1 (P4)",
+                    "pos": {
+                        "x": 213.8278,
+                        "y": 157.7
+                    },
+                    "uuid": "b52c60a7-e97c-4e22-8b39-9c73acba3ad6"
+                },
+                {
+                    "description": "Segment of I1 on F.Silkscreen",
+                    "pos": {
+                        "x": 214.412,
+                        "y": 161.129
+                    },
+                    "uuid": "f141ab28-49c7-483e-ab86-489b4a4a906d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C4 (P7)",
+                    "pos": {
+                        "x": 113.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "ddec8210-5e9a-4978-a477-9d2ce6211164"
+                },
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.412,
+                        "y": 158.509
+                    },
+                    "uuid": "e7b3c257-fcb3-41ac-a452-94872ec22cfd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.842,
+                        "y": 151.778
+                    },
+                    "uuid": "27240453-a835-4dc9-8bce-dd25faa946a9"
+                },
+                {
+                    "description": "Footprint text of C4 (P10)",
+                    "pos": {
+                        "x": 126.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "9647f165-13cd-4af7-96a8-d74c3737bb37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C1 (P7)",
+                    "pos": {
+                        "x": 53.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "9f777448-d326-4559-9212-be7cddd97e9e"
+                },
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 54.412,
+                        "y": 158.509
+                    },
+                    "uuid": "d68bd9ff-1fba-4f1d-8f63-2312d9dce6a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C1 (P10)",
+                    "pos": {
+                        "x": 66.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "3ad7db0b-07da-4ee9-9885-a3eac3bcbad0"
+                },
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 65.842,
+                        "y": 151.778
+                    },
+                    "uuid": "45f61d72-364b-4738-af02-f5c487299fc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 54.412,
+                        "y": 166.129
+                    },
+                    "uuid": "25666a5c-6030-4602-93e2-27c8d784b2fb"
+                },
+                {
+                    "description": "Footprint text of C1 (P4)",
+                    "pos": {
+                        "x": 53.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "c3980e04-4d7e-426b-9ed4-2ead8c4eee8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C1 (P1)",
+                    "pos": {
+                        "x": 53.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "1dbc2eb1-0268-4c73-b511-ca1d3cf97428"
+                },
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 54.412,
+                        "y": 173.622
+                    },
+                    "uuid": "cef23900-fc18-4f72-a76e-5dbc62696e7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C1 (P16)",
+                    "pos": {
+                        "x": 66.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "11a8c905-a9dc-40a4-8317-9bde334d34a4"
+                },
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 65.842,
+                        "y": 167.018
+                    },
+                    "uuid": "3412113f-809e-47d3-ab3f-e2057f86f471"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C1 (P13)",
+                    "pos": {
+                        "x": 66.477,
+                        "y": 162.827
+                    },
+                    "uuid": "52e876d7-7d53-4308-9c13-b8deb4f2e989"
+                },
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 65.842,
+                        "y": 159.398
+                    },
+                    "uuid": "5b290311-cad2-4d03-8966-e63c81704cbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.412,
+                        "y": 166.129
+                    },
+                    "uuid": "676aec66-ba62-453c-a1f1-06f4de9c691c"
+                },
+                {
+                    "description": "Footprint text of C2 (P4)",
+                    "pos": {
+                        "x": 73.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "93cf013a-2771-4cc2-91d2-aead807d7a7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 85.842,
+                        "y": 159.398
+                    },
+                    "uuid": "d5d6ff7f-0b4e-44c1-9693-ef2e382ea9e4"
+                },
+                {
+                    "description": "Footprint text of C2 (P13)",
+                    "pos": {
+                        "x": 86.477,
+                        "y": 162.827
+                    },
+                    "uuid": "ee74722e-221c-4f14-9670-1439278c558d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 85.842,
+                        "y": 151.778
+                    },
+                    "uuid": "296c700b-9252-4033-9f38-fd725568cb63"
+                },
+                {
+                    "description": "Footprint text of C2 (P10)",
+                    "pos": {
+                        "x": 86.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "6cf596b5-41e1-4a6d-bc1d-6474630a4084"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C2 (P7)",
+                    "pos": {
+                        "x": 73.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "04bd1341-88ee-4284-838f-b01b9bb4eea3"
+                },
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.412,
+                        "y": 158.509
+                    },
+                    "uuid": "572f9491-d514-4e12-9cd4-a4c303f7e72d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C2 (P1)",
+                    "pos": {
+                        "x": 73.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "482c460e-447a-484e-8cee-b1068eea8ef2"
+                },
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.412,
+                        "y": 173.622
+                    },
+                    "uuid": "80bb555a-5bfe-4953-ba6c-667a6295711d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C2 (P16)",
+                    "pos": {
+                        "x": 86.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "8225d586-7de2-4940-b397-6c4224830228"
+                },
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 85.842,
+                        "y": 167.018
+                    },
+                    "uuid": "ef648e79-7041-4deb-976f-2601daf6620d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C3 (P7)",
+                    "pos": {
+                        "x": 93.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "a86be0a6-cbd3-4d04-9f70-8fff41b457af"
+                },
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.412,
+                        "y": 158.509
+                    },
+                    "uuid": "ce9db884-b4f5-4a20-bb4a-18a0a930c105"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C3 (P1)",
+                    "pos": {
+                        "x": 93.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "631a8919-c87d-465f-ab4f-a17b887d3eb0"
+                },
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.412,
+                        "y": 173.622
+                    },
+                    "uuid": "b7aa269c-bfcb-4414-9093-dc189a561d37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 94.412,
+                        "y": 166.129
+                    },
+                    "uuid": "2bdb957e-2735-4f16-a00e-52016acdc73a"
+                },
+                {
+                    "description": "Footprint text of C3 (P4)",
+                    "pos": {
+                        "x": 93.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "e094bc4c-64b0-4779-8eac-f3f35a3ee3ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 105.842,
+                        "y": 159.398
+                    },
+                    "uuid": "15336d28-aa3a-4f1d-af40-048eacf7f7b1"
+                },
+                {
+                    "description": "Footprint text of C3 (P13)",
+                    "pos": {
+                        "x": 106.477,
+                        "y": 162.827
+                    },
+                    "uuid": "eefc9fd7-b6d4-4e16-8a7c-e2a13d7a87f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 105.842,
+                        "y": 151.778
+                    },
+                    "uuid": "46b42bd5-81d1-4660-b6c4-85afd677bc5d"
+                },
+                {
+                    "description": "Footprint text of C3 (P10)",
+                    "pos": {
+                        "x": 106.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "90ad2062-2b18-4f7b-903f-5ff2c698ac46"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 105.842,
+                        "y": 167.018
+                    },
+                    "uuid": "468695d6-9251-4a41-b766-89350be4bb5a"
+                },
+                {
+                    "description": "Footprint text of C3 (P16)",
+                    "pos": {
+                        "x": 106.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "fbc44312-227c-4fb5-8d43-c45993085f9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C4 (P1)",
+                    "pos": {
+                        "x": 113.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "a973023f-dc8d-42da-8e7a-628d46d853ae"
+                },
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.412,
+                        "y": 173.622
+                    },
+                    "uuid": "a9fe0440-2914-4b3f-870b-04ad112395a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (P7)",
+                    "pos": {
+                        "x": 133.8278,
+                        "y": 154.7752
+                    },
+                    "uuid": "47c6a361-47ee-4683-a221-71e40404fde0"
+                },
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 134.412,
+                        "y": 158.509
+                    },
+                    "uuid": "c360d79a-70a4-4b89-a50b-1ee560c6bd7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 134.412,
+                        "y": 166.129
+                    },
+                    "uuid": "2532d4e3-d2aa-41ac-9eed-68a79c69f979"
+                },
+                {
+                    "description": "Footprint text of C5 (P4)",
+                    "pos": {
+                        "x": 133.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "5c3864eb-4aab-46d5-89b3-a158a569759a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 145.842,
+                        "y": 159.398
+                    },
+                    "uuid": "8b8a408e-e456-4037-93e2-a39aeb1c4394"
+                },
+                {
+                    "description": "Footprint text of C5 (P13)",
+                    "pos": {
+                        "x": 146.477,
+                        "y": 162.827
+                    },
+                    "uuid": "9ed89728-9198-41f0-b133-9b5c43ddb5be"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (P10)",
+                    "pos": {
+                        "x": 146.5024,
+                        "y": 155.1816
+                    },
+                    "uuid": "78351461-a413-4051-814f-fad10b4a50e5"
+                },
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 145.842,
+                        "y": 151.778
+                    },
+                    "uuid": "b5b83652-128e-4e82-8bbc-942be706e884"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.842,
+                        "y": 167.018
+                    },
+                    "uuid": "485bc178-f75f-4d5b-876c-43c8a7381113"
+                },
+                {
+                    "description": "Footprint text of C6 (P16)",
+                    "pos": {
+                        "x": 166.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "fe1b9f9c-5ead-4324-a457-d0613f5d5eb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C7 (P1)",
+                    "pos": {
+                        "x": 173.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "7827f8df-3b73-4155-ac16-606b05f33bac"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.412,
+                        "y": 173.622
+                    },
+                    "uuid": "e4724acd-3608-4448-9d74-de8f1a7fbbd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (P16)",
+                    "pos": {
+                        "x": 146.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "6edbfe52-d318-4cd8-95f3-25db13af660e"
+                },
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 145.842,
+                        "y": 167.018
+                    },
+                    "uuid": "e4244465-466b-4143-8e1d-8c6c632c600d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 154.412,
+                        "y": 173.622
+                    },
+                    "uuid": "3baaa4c3-572d-4fcf-8398-d912893a0f40"
+                },
+                {
+                    "description": "Footprint text of C6 (P1)",
+                    "pos": {
+                        "x": 153.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "e62fde19-50d5-4c8b-8410-caadad85f54f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 154.412,
+                        "y": 166.129
+                    },
+                    "uuid": "5738e276-509b-484f-b390-d0ff9159abf6"
+                },
+                {
+                    "description": "Footprint text of C6 (P4)",
+                    "pos": {
+                        "x": 153.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "bbed4de0-e05d-49f0-bf9b-c4bf1a673b72"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.842,
+                        "y": 159.398
+                    },
+                    "uuid": "5276e560-15c7-458a-b56f-879ab572b688"
+                },
+                {
+                    "description": "Footprint text of C6 (P13)",
+                    "pos": {
+                        "x": 166.477,
+                        "y": 162.827
+                    },
+                    "uuid": "c235f7f3-e89f-4c15-929f-7f2cfcbb2ac3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C7 (P4)",
+                    "pos": {
+                        "x": 173.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "17ca7131-1798-4de6-9fba-b950e1d68029"
+                },
+                {
+                    "description": "Segment of C7 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.412,
+                        "y": 166.129
+                    },
+                    "uuid": "1f3d287f-7b74-4ac3-ab1d-e70b27db1de9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C4 (P4)",
+                    "pos": {
+                        "x": 113.8278,
+                        "y": 162.7
+                    },
+                    "uuid": "a45963c2-afbd-4463-ab33-2e575ed1dda4"
+                },
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.412,
+                        "y": 166.129
+                    },
+                    "uuid": "df816828-5ac2-4cac-99f4-e8ee2b0c9c5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 134.412,
+                        "y": 173.622
+                    },
+                    "uuid": "2e5a1a52-8652-4b6f-ae23-6c405aa0e815"
+                },
+                {
+                    "description": "Footprint text of C5 (P1)",
+                    "pos": {
+                        "x": 133.8786,
+                        "y": 170.2184
+                    },
+                    "uuid": "c839e9d2-de51-4bc2-a62c-aee5a0979f8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of C4 (P16)",
+                    "pos": {
+                        "x": 126.5024,
+                        "y": 170.447
+                    },
+                    "uuid": "190a6af0-9073-4794-8032-69e4b829697c"
+                },
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.842,
+                        "y": 167.018
+                    },
+                    "uuid": "536acace-e514-4bc7-9354-b74025f20cdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.842,
+                        "y": 159.398
+                    },
+                    "uuid": "09fe13e7-03ff-448a-87ac-a357aa80b158"
+                },
+                {
+                    "description": "Footprint text of C4 (P13)",
+                    "pos": {
+                        "x": 126.477,
+                        "y": 162.827
+                    },
+                    "uuid": "b81ad656-be41-4344-b36e-8097bdb1ce93"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 292.23,
+                        "y": 138.95
+                    },
+                    "uuid": "2f8a67d4-822f-4abc-9db0-4fb60dca6117"
+                },
+                {
+                    "description": "PTH pad 1 [/SW4_out2] of J13",
+                    "pos": {
+                        "x": 300.63,
+                        "y": 138.05
+                    },
+                    "uuid": "7e4b1f80-b145-47fd-8bc9-2dba372d6ec8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 292.23,
+                        "y": 138.95
+                    },
+                    "uuid": "2f8a67d4-822f-4abc-9db0-4fb60dca6117"
+                },
+                {
+                    "description": "PTH pad 1 [/SW4_out2] of J13",
+                    "pos": {
+                        "x": 295.55,
+                        "y": 138.05
+                    },
+                    "uuid": "8c01e008-9a5d-46aa-b160-bbd2357bf00a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R16",
+                    "pos": {
+                        "x": 298.8,
+                        "y": 149.4
+                    },
+                    "uuid": "63b9f163-5229-402d-bad4-9936f6f27a71"
+                },
+                {
+                    "description": "Pad 2 [/SW4_RETURN] of R19 on F.Cu",
+                    "pos": {
+                        "x": 298.8,
+                        "y": 148.5
+                    },
+                    "uuid": "1941d54e-7095-4d8b-9839-e5650d986578"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R12",
+                    "pos": {
+                        "x": 300.55,
+                        "y": 162.75
+                    },
+                    "uuid": "2eaa483f-643a-417c-a13e-0659299ae297"
+                },
+                {
+                    "description": "Pad 2 [/SW1_out2] of R10 on F.Cu",
+                    "pos": {
+                        "x": 301.0,
+                        "y": 161.25
+                    },
+                    "uuid": "30ce057b-61ab-46d6-ab5f-595df77a726f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 300.55,
+                        "y": 157.55
+                    },
+                    "uuid": "c21a365b-89d8-45fb-b426-07105bbd542f"
+                },
+                {
+                    "description": "Pad 2 [/SW2_out2] of R13 on F.Cu",
+                    "pos": {
+                        "x": 301.1,
+                        "y": 156.05
+                    },
+                    "uuid": "b49165cc-4422-4e46-8733-19e0e3f77101"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J8 on F.Silkscreen",
+                    "pos": {
+                        "x": 292.33,
+                        "y": 190.3
+                    },
+                    "uuid": "68c2911d-c41f-4026-bda6-7b756dbef648"
+                },
+                {
+                    "description": "PTH pad 1 [+48V] of J8",
+                    "pos": {
+                        "x": 295.65,
+                        "y": 189.4
+                    },
+                    "uuid": "430f6e0c-c6ae-4b81-bb1e-db5f2938ac09"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J8 on F.Silkscreen",
+                    "pos": {
+                        "x": 292.33,
+                        "y": 190.3
+                    },
+                    "uuid": "68c2911d-c41f-4026-bda6-7b756dbef648"
+                },
+                {
+                    "description": "PTH pad 1 [+48V] of J8",
+                    "pos": {
+                        "x": 300.73,
+                        "y": 189.4
+                    },
+                    "uuid": "8b5d3a41-2e3e-4500-a4d7-f14450522a55"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J14 on F.Silkscreen",
+                    "pos": {
+                        "x": 224.1,
+                        "y": 196.68
+                    },
+                    "uuid": "fb9a148f-6580-4346-b3f2-ce6fdfbb2888"
+                },
+                {
+                    "description": "PTH pad 1 [/T1_s] of J14",
+                    "pos": {
+                        "x": 225.0,
+                        "y": 200.0
+                    },
+                    "uuid": "862d4d4e-e4f1-42aa-8453-d72fb3d11e01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J14 on F.Silkscreen",
+                    "pos": {
+                        "x": 224.1,
+                        "y": 196.68
+                    },
+                    "uuid": "fb9a148f-6580-4346-b3f2-ce6fdfbb2888"
+                },
+                {
+                    "description": "PTH pad 1 [/T1_s] of J14",
+                    "pos": {
+                        "x": 225.0,
+                        "y": 205.08
+                    },
+                    "uuid": "0f748477-f9fe-41d2-8507-82aa944d5dba"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J15 on F.Silkscreen",
+                    "pos": {
+                        "x": 249.1,
+                        "y": 196.68
+                    },
+                    "uuid": "45cfbd0f-269f-4e38-8e8f-afe93b17e2c7"
+                },
+                {
+                    "description": "PTH pad 1 [/T5_s] of J15",
+                    "pos": {
+                        "x": 250.0,
+                        "y": 200.0
+                    },
+                    "uuid": "6312c01b-2789-4103-89c2-bb2a94a6ba0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J15 on F.Silkscreen",
+                    "pos": {
+                        "x": 249.1,
+                        "y": 196.68
+                    },
+                    "uuid": "45cfbd0f-269f-4e38-8e8f-afe93b17e2c7"
+                },
+                {
+                    "description": "PTH pad 1 [/T5_s] of J15",
+                    "pos": {
+                        "x": 250.0,
+                        "y": 205.08
+                    },
+                    "uuid": "4681da6e-6de4-4794-8ec2-248be18506f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J5 on F.Silkscreen",
+                    "pos": {
+                        "x": 49.62,
+                        "y": 178.7
+                    },
+                    "uuid": "81a07245-ffba-419c-a7eb-2cf96ffce664"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of J5",
+                    "pos": {
+                        "x": 41.22,
+                        "y": 179.6
+                    },
+                    "uuid": "e4e6535c-b7ad-4832-bc4f-7ae082cc541e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J5 on F.Silkscreen",
+                    "pos": {
+                        "x": 49.62,
+                        "y": 178.7
+                    },
+                    "uuid": "81a07245-ffba-419c-a7eb-2cf96ffce664"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of J5",
+                    "pos": {
+                        "x": 46.3,
+                        "y": 179.6
+                    },
+                    "uuid": "2ab4b969-fb39-467d-bba9-fee4bcb1fce4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

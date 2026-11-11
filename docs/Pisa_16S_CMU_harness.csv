@@ -1,0 +1,19 @@
+﻿Wire ID,Function,Source board,Source connector,Source pin,Destination (CMU inputs are logical labels),Connection note
+BRIDGE-B8,Series bridge,Lower,J11,2,Upper backplane J2 pin 1,Branch B8 sense wire at this junction.
+B0,Sense,Lower,J2,1,CMU B0,Stack negative
+B1,Sense,Lower,J2,2,CMU B1,R1 joins this node to the next cell.
+B2,Sense,Lower,J3,2,CMU B2,R2 joins this node to the next cell.
+B3,Sense,Lower,J4,2,CMU B3,R3 joins this node to the next cell.
+B4,Sense,Lower,J6,2,CMU B4,R4 joins this node to the next cell.
+B5,Sense,Lower,J7,2,CMU B5,R5 joins this node to the next cell.
+B6,Sense,Lower,J9,2,CMU B6,R6 joins this node to the next cell.
+B7,Sense,Lower,J10,2,CMU B7,R7 joins this node to the next cell.
+B8,Sense,Lower,J11,2,CMU B8,B8 bridge junction
+B9,Sense,Upper,J2,2,CMU B9,R1 joins this node to the next cell.
+B10,Sense,Upper,J3,2,CMU B10,R2 joins this node to the next cell.
+B11,Sense,Upper,J4,2,CMU B11,R3 joins this node to the next cell.
+B12,Sense,Upper,J6,2,CMU B12,R4 joins this node to the next cell.
+B13,Sense,Upper,J7,2,CMU B13,R5 joins this node to the next cell.
+B14,Sense,Upper,J9,2,CMU B14,R6 joins this node to the next cell.
+B15,Sense,Upper,J10,2,CMU B15,R7 joins this node to the next cell.
+B16,Sense,Upper,J11,2,CMU B16,Stack positive

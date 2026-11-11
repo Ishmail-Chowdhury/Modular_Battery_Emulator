@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_26pos
+D Footprint in Connettori.pretty - Conn_26pos_Board for PCB connector, Conn_26pos_Head for Header
+$ENDCMP
+#
+$CMP Conn_34pos
+D Footprint in Connettori.pretty - Conn_34pos_Board for PCB connector, Conn_34pos_Head for Header
+$ENDCMP
+#
+$CMP Conn_80pos
+D Footprint in Connettori.pretty - Conn_80pos_Board for PCB connector, Conn_80pos_Head for Header
+$ENDCMP
+#
+#End Doc Library

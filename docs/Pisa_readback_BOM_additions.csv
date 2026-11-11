@@ -1,0 +1,5 @@
+Board,References,Part number,Footprint,Quantity per board,Board count,Total quantity,Source,Placement
+Backplane,U8,SN74CB3Q3251PWR,TSSOP-16 4.4 x 5 mm 0.65 mm pitch,1,2,2,https://www.digikey.com/en/products/detail/texas-instruments/SN74CB3Q3251PWR/773828,Fit on both backplanes
+Backplane,C9,CL10B104KB8NNNC,0603,1,2,2,https://jlcpcb.com/partdetail/CL10B104KB8NNNC/C1591,Fit on both backplanes
+Backplane,R27 R28 R29,0603WAF1002T5E,0603,3,2,6,https://jlcpcb.com/partdetail/0603WAF1002T5E/C25804,Fit on both backplanes
+CVE,R40 R42 R44,RC0402FR-070RL,0402,3,16,48,https://jlcpcb.com/partdetail/RC0402FR-070RL/C106231,Fit on every CVE

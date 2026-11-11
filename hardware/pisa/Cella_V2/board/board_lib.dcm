@@ -1,0 +1,52 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7354-33W5-7
+D IC REG LINEAR 3.3V 150MA SOT25
+$ENDCMP
+#
+$CMP DAC8501
+D 16 Convertitore digitale/analogico di bit 1 8-VSSOP
+$ENDCMP
+#
+$CMP INA186A2IDDFR
+D Per rilevazione di corrente Amplificatori 1 Circuiti Rail-to-rail TSOT-23-8
+$ENDCMP
+#
+$CMP LM4041CIDCKT
+D Shunt Riferimento di tensione IC 10 V ±0,5% SC-70-5
+$ENDCMP
+#
+$CMP LMV431AIMFX
+D Shunt Riferimento di tensione IC 30 V ±1% SOT-23-3
+$ENDCMP
+#
+$CMP LogoSemes
+D Logo Semes_lab 23mmx7mm
+$ENDCMP
+#
+$CMP LogoUnipi
+D Cherubino Unipi 7mmx7mm
+$ENDCMP
+#
+$CMP MAX14850
+D DGTL ISO 600VRMS 6CH GP 16SOIC
+F https://datasheets.maximintegrated.com/en/ds/MAX14850.pdf
+$ENDCMP
+#
+$CMP MCP3462R
+D 16 Convertitore analogico/digitale di bit 2 Ingresso 2 Sigma-Delta 20-TSSOP
+$ENDCMP
+#
+$CMP MCP3464R
+D 16 Convertitore analogico/digitale di bit 4 Ingresso 1 Sigma-Delta 20-TSSOP
+$ENDCMP
+#
+$CMP TLV431BIDBZR
+D Shunt Riferimento di tensione IC 6 V ±0,5% SOT-23-3
+$ENDCMP
+#
+$CMP URB4805YMD-20WR3
+D Modulo isolato Convertitori c.c./c.c. 1 Uscita 5V - - - 4A 18V - 75V Ingresso
+$ENDCMP
+#
+#End Doc Library

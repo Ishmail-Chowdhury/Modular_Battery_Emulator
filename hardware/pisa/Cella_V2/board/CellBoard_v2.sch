@@ -1,0 +1,841 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Cell Emulator "
+Date ""
+Rev ""
+Comp "Semes_Lab"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L board_lib:URB4805YMD-6WR3 U1
+U 1 1 5FC5A32C
+P 4850 2170
+F 0 "U1" H 4850 2585 50  0000 C CNN
+F 1 "URB4805YMD-10WR3" H 4850 2494 50  0000 C CNN
+F 2 "board:URB4805YMD-6WR3" H 4850 2595 50  0001 C CNN
+F 3 "" H 4850 2595 50  0001 C CNN
+F 4 "URB4805YMD-10WR3" H 4850 2170 50  0001 C CNN "PN"
+F 5 "Mornsun America, LLC" H 4850 2170 50  0001 C CNN "Man"
+F 6 "2725-URB4805YMD-10WR3-ND" H 4850 2170 50  0001 C CNN "Digi"
+F 7 "2725-URB4805YMD-10WR3-ND" H 4850 2170 50  0001 C CNN "Digikey PN"
+F 8 "Mornsun America, LLC" H 4850 2170 50  0001 C CNN "Manufacturer"
+F 9 "DC DC CONVERTER 5V 10W" H 4850 2170 50  0001 C CNN "Description"
+	1    4850 2170
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:C-Device C2
+U 1 1 5FC5CBBC
+P 3525 2165
+F 0 "C2" H 3575 2255 50  0000 L CNN
+F 1 "0.1uF" H 3580 2070 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3563 2015 50  0001 C CNN
+F 3 "~" H 3525 2165 50  0001 C CNN
+F 4 "CL21B104KCFNNNE" H 3525 2165 50  0001 C CNN "PN"
+F 5 "Samsung Electro-Mechanics" H 3525 2165 50  0001 C CNN "Man"
+F 6 "1276-6840-1-ND" H 3525 2165 50  0001 C CNN "Digi"
+F 7 "1276-6840-1-ND" H 3525 2165 50  0001 C CNN "Digikey PN"
+	1    3525 2165
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:CP1-Device C3
+U 1 1 5FC603D9
+P 3810 2165
+F 0 "C3" H 3845 2265 50  0000 L CNN
+F 1 "10uF" H 3850 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 3810 2165 50  0001 C CNN
+F 3 "~" H 3810 2165 50  0001 C CNN
+F 4 "EDK106M100A9HAA" H 3810 2165 50  0001 C CNN "PN"
+F 5 "KEMET" H 3810 2165 50  0001 C CNN "Man"
+F 6 "399-18132-1-ND" H 3810 2165 50  0001 C CNN "Digi"
+F 7 "399-18132-1-ND" H 3810 2165 50  0001 C CNN "Digikey PN"
+	1    3810 2165
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3810 2015 3525 2015
+Connection ~ 3810 2015
+Wire Wire Line
+	3525 2315 3810 2315
+Connection ~ 3810 2315
+Wire Wire Line
+	4400 2315 4400 2295
+Wire Wire Line
+	4400 2045 4400 2015
+Wire Wire Line
+	5300 2325 5300 2295
+Connection ~ 5545 2325
+Wire Wire Line
+	5545 2325 5935 2325
+Wire Wire Line
+	5935 2025 5545 2025
+Wire Wire Line
+	5300 2045 5300 2025
+Connection ~ 5545 2025
+$Comp
+L board-rescue:GND-power #PWR04
+U 1 1 5FC63519
+P 5545 2325
+F 0 "#PWR04" H 5545 2075 50  0001 C CNN
+F 1 "GND" H 5550 2152 50  0000 C CNN
+F 2 "" H 5545 2325 50  0001 C CNN
+F 3 "" H 5545 2325 50  0001 C CNN
+	1    5545 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:+5V-power #PWR03
+U 1 1 5FC63900
+P 5545 2025
+F 0 "#PWR03" H 5545 1875 50  0001 C CNN
+F 1 "+5V" H 5560 2198 50  0000 C CNN
+F 2 "" H 5545 2025 50  0001 C CNN
+F 3 "" H 5545 2025 50  0001 C CNN
+	1    5545 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3810 2015 4200 2015
+Wire Wire Line
+	3810 2315 4200 2315
+$Comp
+L board-rescue:CP1-Device C4
+U 1 1 5FC67F3B
+P 4200 2165
+F 0 "C4" H 4235 2265 50  0000 L CNN
+F 1 "10uF" H 4240 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4200 2165 50  0001 C CNN
+F 3 "~" H 4200 2165 50  0001 C CNN
+F 4 "EDK106M100A9HAA" H 4200 2165 50  0001 C CNN "PN"
+F 5 "KEMET" H 4200 2165 50  0001 C CNN "Man"
+F 6 "399-18132-1-ND" H 4200 2165 50  0001 C CNN "Digi"
+F 7 "399-18132-1-ND" H 4200 2165 50  0001 C CNN "Digikey PN"
+	1    4200 2165
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 2015
+Wire Wire Line
+	4200 2015 4400 2015
+Connection ~ 4200 2315
+Wire Wire Line
+	4200 2315 4400 2315
+$Comp
+L board-rescue:CP1-Device C5
+U 1 1 5FC683C4
+P 5545 2175
+F 0 "C5" H 5580 2275 50  0000 L CNN
+F 1 "10uF" H 5585 2065 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5545 2175 50  0001 C CNN
+F 3 "~" H 5545 2175 50  0001 C CNN
+F 4 "EDK106M100A9HAA" H 5545 2175 50  0001 C CNN "PN"
+F 5 "KEMET" H 5545 2175 50  0001 C CNN "Man"
+F 6 "399-18132-1-ND" H 5545 2175 50  0001 C CNN "Digi"
+F 7 "399-18132-1-ND" H 5545 2175 50  0001 C CNN "Digikey PN"
+	1    5545 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:C-Device C6
+U 1 1 5FC68AFD
+P 5935 2175
+F 0 "C6" H 5985 2265 50  0000 L CNN
+F 1 "0.1uF" H 5990 2080 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5973 2025 50  0001 C CNN
+F 3 "~" H 5935 2175 50  0001 C CNN
+F 4 "CL21B104KCFNNNE" H 5935 2175 50  0001 C CNN "PN"
+F 5 "Samsung Electro-Mechanics" H 5935 2175 50  0001 C CNN "Man"
+F 6 "1276-6840-1-ND" H 5935 2175 50  0001 C CNN "Digi"
+F 7 "1276-6840-1-ND" H 5935 2175 50  0001 C CNN "Digikey PN"
+	1    5935 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:GNDA-power #PWR07
+U 1 1 5FC69C7F
+P 5935 2325
+F 0 "#PWR07" H 5935 2075 50  0001 C CNN
+F 1 "GNDA" H 5940 2152 50  0000 C CNN
+F 2 "" H 5935 2325 50  0001 C CNN
+F 3 "" H 5935 2325 50  0001 C CNN
+	1    5935 2325
+	1    0    0    -1  
+$EndComp
+Connection ~ 5935 2325
+$Comp
+L board-rescue:+5VA-power #PWR06
+U 1 1 5FC6D0C9
+P 5935 2025
+F 0 "#PWR06" H 5935 1875 50  0001 C CNN
+F 1 "+5VA" H 5950 2198 50  0000 C CNN
+F 2 "" H 5935 2025 50  0001 C CNN
+F 3 "" H 5935 2025 50  0001 C CNN
+	1    5935 2025
+	1    0    0    -1  
+$EndComp
+Connection ~ 5935 2025
+Text Notes 3355 1595 0    50   ~ 0
+Power isolato:\n6W in: 18-75V->5V, 1.2A\n5,8€ -> 5€ X 250 pezzi
+Text Label 3000 4100 0    50   ~ 0
+CLK
+Text Label 3000 4200 0    50   ~ 0
+MOSI
+Text Label 5150 4400 0    50   ~ 0
+CS_ADC1\
+Text Label 3000 4300 0    50   ~ 0
+MISO
+Text Label 5150 4600 0    50   ~ 0
+CS_DAC\
+$Comp
+L board-rescue:TestPoint-Connector TP2
+U 1 1 5FD814C1
+P 5150 5125
+F 0 "TP2" V 5080 5435 50  0000 R CNN
+F 1 "TestPoint" V 5150 5635 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5350 5125 50  0001 C CNN
+F 3 "~" H 5350 5125 50  0001 C CNN
+	1    5150 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L board-rescue:GND-power #PWR02
+U 1 1 5FD826F4
+P 3000 4850
+F 0 "#PWR02" H 3000 4600 50  0001 C CNN
+F 1 "GND" H 3005 4677 50  0000 C CNN
+F 2 "" H 3000 4850 50  0001 C CNN
+F 3 "" H 3000 4850 50  0001 C CNN
+	1    3000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:GND-power #PWR05
+U 1 1 5FD83387
+P 3545 4000
+F 0 "#PWR05" H 3545 3750 50  0001 C CNN
+F 1 "GND" H 3550 3827 50  0000 C CNN
+F 2 "" H 3545 4000 50  0001 C CNN
+F 3 "" H 3545 4000 50  0001 C CNN
+	1    3545 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3545 4000 3225 4000
+$Comp
+L board-rescue:C-Device C7
+U 1 1 5FD8832B
+P 3225 3850
+F 0 "C7" H 3275 3940 50  0000 L CNN
+F 1 "0.1uF" H 3280 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3263 3700 50  0001 C CNN
+F 3 "~" H 3225 3850 50  0001 C CNN
+F 4 "CL21B104KCFNNNE" H 3225 3850 50  0001 C CNN "PN"
+F 5 "Samsung Electro-Mechanics" H 3225 3850 50  0001 C CNN "Man"
+F 6 "1276-6840-1-ND" H 3225 3850 50  0001 C CNN "Digi"
+F 7 "1276-6840-1-ND" H 3225 3850 50  0001 C CNN "Digikey PN"
+	1    3225 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:+5V-power #PWR08
+U 1 1 5FD88331
+P 3550 3650
+F 0 "#PWR08" H 3550 3500 50  0001 C CNN
+F 1 "+5V" H 3565 3823 50  0000 C CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "" H 3550 3650 50  0001 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+Text Label 1750 4100 2    50   ~ 0
+CLK_in
+Text Label 1750 4200 2    50   ~ 0
+MOSI_in
+Text Label 1750 4400 2    50   ~ 0
+CS_A
+Text Label 1750 4300 2    50   ~ 0
+MISO_in
+Text Label 1750 4500 2    50   ~ 0
+CS_B
+Text Label 1750 4600 2    50   ~ 0
+VIB_in
+Text Label 1750 4700 2    50   ~ 0
+VOC_in
+$Comp
+L board-rescue:Conn_01x01-Connector_Generic J4
+U 1 1 5FDBF14F
+P 9400 1595
+F 0 "J4" H 9480 1637 50  0000 L CNN
+F 1 "C+" H 9480 1546 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 9400 1595 50  0001 C CNN
+F 3 "~" H 9400 1595 50  0001 C CNN
+	1    9400 1595
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:Conn_01x01-Connector_Generic J5
+U 1 1 5FDC0076
+P 9400 1875
+F 0 "J5" H 9480 1917 50  0000 L CNN
+F 1 "C-" H 9480 1826 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 9400 1875 50  0001 C CNN
+F 3 "~" H 9400 1875 50  0001 C CNN
+	1    9400 1875
+	1    0    0    -1  
+$EndComp
+Text Label 9200 1595 2    50   ~ 0
+C+
+Text Label 9200 1875 2    50   ~ 0
+C-
+Text Label 5150 4500 0    50   ~ 0
+CS_ADC2\
+Wire Wire Line
+	2190 1380 2190 1480
+$Comp
+L board-rescue:PWR_FLAG-power #FLG03
+U 1 1 5FDE89F1
+P 2190 1580
+F 0 "#FLG03" H 2190 1655 50  0001 C CNN
+F 1 "PWR_FLAG" H 2190 1753 50  0000 C CNN
+F 2 "" H 2190 1580 50  0001 C CNN
+F 3 "~" H 2190 1580 50  0001 C CNN
+	1    2190 1580
+	-1   0    0    1   
+$EndComp
+$Comp
+L board-rescue:PWR_FLAG-power #FLG02
+U 1 1 5FDE7F1F
+P 2190 1380
+F 0 "#FLG02" H 2190 1455 50  0001 C CNN
+F 1 "PWR_FLAG" H 2190 1553 50  0000 C CNN
+F 2 "" H 2190 1380 50  0001 C CNN
+F 3 "~" H 2190 1380 50  0001 C CNN
+	1    2190 1380
+	1    0    0    -1  
+$EndComp
+Text Notes 890  875  0    50   ~ 0
+Connection with motherboard
+Text Label 2190 1480 0    50   ~ 0
+48V
+$Comp
+L board-rescue:Conn_01x02-Connector_Generic J2
+U 1 1 5FDC7F7A
+P 1990 1580
+F 0 "J2" H 1985 1295 50  0000 C CNN
+F 1 "Power" H 1970 1370 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1990 1580 50  0001 C CNN
+F 3 "~" H 1990 1580 50  0001 C CNN
+	1    1990 1580
+	-1   0    0    1   
+$EndComp
+$Comp
+L board-rescue:Conn_01x02-Connector_Generic J3
+U 1 1 5FDC5C78
+P 1970 2500
+F 0 "J3" H 1888 2175 50  0000 C CNN
+F 1 "C_in" H 1888 2266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1970 2500 50  0001 C CNN
+F 3 "~" H 1970 2500 50  0001 C CNN
+	1    1970 2500
+	-1   0    0    1   
+$EndComp
+Text Label 2170 2500 0    50   ~ 0
+C-
+Text Label 2170 2400 0    50   ~ 0
+C+
+Text Label 2190 1580 0    50   ~ 0
+GND_in_pwr
+$Comp
+L board_lib:ADUM4151 U2
+U 1 1 61AAA837
+P 2400 4450
+F 0 "U2" H 2350 3885 50  0000 L CNN
+F 1 "ADUM4151" H 2340 3820 50  0000 L CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2400 5175 50  0001 C CNN
+F 3 "" H 2400 5175 50  0001 C CNN
+F 4 "ADUM4151BRIZ" H 2395 4400 50  0001 C CNN "PN"
+F 5 "Analog Devices Inc." H 2395 4400 50  0001 C CNN "Man"
+F 6 "ADUM4151BRIZ-ND" H 2395 4400 50  0001 C CNN "Digikey PN"
+F 7 "Analog Devices Inc." H 2400 4450 50  0001 C CNN "Manufacturer"
+F 8 "DGT ISOL 5000VRMS 7CH SPI 20SOIC" H 2400 4450 50  0001 C CNN "Description"
+	1    2400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4100 1800 4100
+Wire Wire Line
+	1750 4200 1800 4200
+Wire Wire Line
+	1750 4300 1800 4300
+Wire Wire Line
+	1750 4400 1800 4400
+Wire Wire Line
+	1750 4500 1800 4500
+Wire Wire Line
+	1750 4600 1800 4600
+Wire Wire Line
+	1800 4700 1750 4700
+Wire Wire Line
+	3000 4100 2950 4100
+Wire Wire Line
+	2950 4200 3000 4200
+Wire Wire Line
+	2950 4300 3000 4300
+Wire Wire Line
+	2950 4800 3000 4800
+Wire Wire Line
+	3000 4800 3000 4850
+Text Notes 5675 3550 0    50   ~ 0
+CS_B  CS_A     Act
+Text Notes 5750 3650 0    50   ~ 0
+0      0      ADC1
+Text Notes 5745 3810 0    50   ~ 0
+0      1      ADC2\n1      0      DAC
+$Comp
+L board-rescue:R-Device R2
+U 1 1 62309422
+P 4700 4900
+AR Path="/62309422" Ref="R2"  Part="1" 
+AR Path="/6208221F/62309422" Ref="R?"  Part="1" 
+F 0 "R2" V 4600 4900 50  0000 C CNN
+F 1 "DNM" V 4700 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4630 4900 50  0001 C CNN
+F 3 "~" H 4700 4900 50  0001 C CNN
+F 4 "RMCF0805ZT0R00" H 4700 4900 50  0001 C CNN "PN"
+F 5 "" H 4700 4900 50  0001 C CNN "Man"
+F 6 "" H 4700 4900 50  0001 C CNN "Digi"
+F 7 "RMCF0805ZT0R00CT-ND" H 4700 4900 50  0001 C CNN "Digikey PN"
+F 8 "RES 0 OHM JUMPER 1/8W 0805" H 4700 4900 50  0001 C CNN "Description"
+F 9 "Stackpole Electronics Inc" H 4700 4900 50  0001 C CNN "Manufacturer"
+	1    4700 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 4900 5150 4900
+Text Label 5150 4900 0    50   ~ 0
+MISO_B
+Wire Wire Line
+	5300 2025 5545 2025
+Wire Wire Line
+	5300 2325 5545 2325
+Wire Notes Line
+	6300 2700 3200 2700
+Text Notes 900  3350 0    50   ~ 0
+Prezzo Unitario: 9,77 -> 6,98(250 pezzi)
+Text Notes 3350 1200 0    50   ~ 0
+DCDC 48->5V \nURB4805YMD-10WR3 10W oppure PDQE10-Q48-S5-D (10W)\noppure\nPQDE6W-Q48-S5-D 6W Stesso Pinout
+Text Notes 5675 4250 0    50   ~ 0
+           OR\nR and R Bypass Decoder U3 \nwhen only one ADC is used\n 
+Text Label 5150 4700 0    50   ~ 0
+TH_ERROR
+$Comp
+L board-rescue:R-Device R1
+U 1 1 61F41EC2
+P 4675 4700
+AR Path="/61F41EC2" Ref="R1"  Part="1" 
+AR Path="/6208221F/61F41EC2" Ref="R?"  Part="1" 
+F 0 "R1" V 4575 4700 50  0000 C CNN
+F 1 "DNM" V 4675 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 4605 4700 50  0001 C CNN
+F 3 "~" H 4675 4700 50  0001 C CNN
+F 4 "RMCF0805ZT0R00" H 4675 4700 50  0001 C CNN "PN"
+F 5 "" H 4675 4700 50  0001 C CNN "Man"
+F 6 "" H 4675 4700 50  0001 C CNN "Digi"
+F 7 "RMCF0805ZT0R00CT-ND" H 4675 4700 50  0001 C CNN "Digikey PN"
+F 8 "RES 0 OHM JUMPER 1/8W 0805" H 4675 4700 50  0001 C CNN "Description"
+F 9 "Stackpole Electronics Inc" H 4675 4700 50  0001 C CNN "Manufacturer"
+	1    4675 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4825 4700 5150 4700
+$Comp
+L board-rescue:GNDA-power #PWR012
+U 1 1 6202BF37
+P 9200 1875
+F 0 "#PWR012" H 9200 1625 50  0001 C CNN
+F 1 "GNDA" H 9205 1702 50  0000 C CNN
+F 2 "" H 9200 1875 50  0001 C CNN
+F 3 "" H 9200 1875 50  0001 C CNN
+	1    9200 1875
+	1    0    0    -1  
+$EndComp
+Text Label 825  3700 0    50   ~ 0
+5V_in
+$Comp
+L board-rescue:C-Device C1
+U 1 1 5FD8AD53
+P 1275 3850
+F 0 "C1" H 1325 3940 50  0000 L CNN
+F 1 "0.1uF" H 1330 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1313 3700 50  0001 C CNN
+F 3 "~" H 1275 3850 50  0001 C CNN
+F 4 "CL21B104KCFNNNE" H 1275 3850 50  0001 C CNN "PN"
+F 5 "Samsung Electro-Mechanics" H 1275 3850 50  0001 C CNN "Man"
+F 6 "1276-6840-1-ND" H 1275 3850 50  0001 C CNN "Digi"
+F 7 "1276-6840-1-ND" H 1275 3850 50  0001 C CNN "Digikey PN"
+	1    1275 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 4000 1800 4000
+Wire Wire Line
+	1575 3900 1575 3700
+Wire Wire Line
+	1575 3900 1800 3900
+Wire Wire Line
+	825  3700 1275 3700
+Connection ~ 1275 3700
+Wire Wire Line
+	1275 3700 1575 3700
+Wire Wire Line
+	1275 4000 825  4000
+Connection ~ 1275 4000
+Connection ~ 3225 4000
+Wire Wire Line
+	3225 4000 2950 4000
+Wire Wire Line
+	3550 3650 3225 3650
+Wire Wire Line
+	3225 3650 3225 3700
+Wire Wire Line
+	3225 3650 3075 3650
+Wire Wire Line
+	3075 3650 3075 3900
+Wire Wire Line
+	3075 3900 2950 3900
+Connection ~ 3225 3650
+Text Label 1160 2150 0    50   ~ 0
+GND_in_sig
+$Comp
+L board-rescue:TestPoint-Connector TP1
+U 1 1 5FDCB2EF
+P 1585 2050
+F 0 "TP1" V 1495 2365 50  0000 R CNN
+F 1 "TestPoint" V 1575 2555 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1785 2050 50  0001 C CNN
+F 3 "~" H 1785 2050 50  0001 C CNN
+	1    1585 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1585 2050 1160 2050
+Text Label 1160 1950 0    50   ~ 0
+VOC_in
+Text Label 1160 1850 0    50   ~ 0
+VIB_in
+Text Label 1160 1750 0    50   ~ 0
+CS_B
+Text Label 1160 1650 0    50   ~ 0
+CS_A
+Text Label 1160 1550 0    50   ~ 0
+MISO_in
+Text Label 1160 1450 0    50   ~ 0
+MOSI_in
+Text Label 1160 1350 0    50   ~ 0
+CLK_in
+$Comp
+L board-rescue:PWR_FLAG-power #FLG01
+U 1 1 5FDEEAB3
+P 1535 1245
+F 0 "#FLG01" H 1535 1320 50  0001 C CNN
+F 1 "PWR_FLAG" H 1535 1418 50  0000 C CNN
+F 2 "" H 1535 1245 50  0001 C CNN
+F 3 "~" H 1535 1245 50  0001 C CNN
+	1    1535 1245
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1535 1245 1160 1250
+Text Label 1160 1250 0    50   ~ 0
+5V_in
+$Comp
+L board-rescue:Conn_01x10-Connector_Generic J1
+U 1 1 5FDC9B42
+P 960 1750
+F 0 "J1" H 985 1150 50  0000 C CNN
+F 1 "ISO COM" V 1095 1725 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 960 1750 50  0001 C CNN
+F 3 "~" H 960 1750 50  0001 C CNN
+	1    960  1750
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	6300 750  6300 2700
+Text Label 825  4000 0    50   ~ 0
+GND_in_sig
+Text Label 3030 2315 0    50   ~ 0
+GND_in_pwr
+Wire Wire Line
+	3030 2315 3525 2315
+Connection ~ 3525 2315
+Connection ~ 3525 2015
+Wire Wire Line
+	3525 2015 3030 2015
+Wire Notes Line
+	3195 2700 2915 2700
+Wire Notes Line
+	2915 2700 2915 750 
+Wire Notes Line
+	2915 750  6300 750 
+$Comp
+L board-rescue:PWR_FLAG-power #FLG0101
+U 1 1 61FCE1B5
+P 1265 2355
+F 0 "#FLG0101" H 1265 2430 50  0001 C CNN
+F 1 "PWR_FLAG" H 1265 2528 50  0000 C CNN
+F 2 "" H 1265 2355 50  0001 C CNN
+F 3 "~" H 1265 2355 50  0001 C CNN
+	1    1265 2355
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1265 2150 1160 2150
+Wire Wire Line
+	1265 2150 1265 2355
+Text Label 1335 4800 0    50   ~ 0
+GND_in_sig
+Wire Wire Line
+	1335 4800 1800 4800
+Text Label 10325 3575 2    50   ~ 0
+C+
+Wire Wire Line
+	9975 3575 10325 3575
+Text Label 10350 3225 0    50   ~ 0
+TH_ERROR
+Wire Wire Line
+	9975 3225 10350 3225
+Wire Wire Line
+	10325 4800 9975 4800
+Wire Wire Line
+	9975 3725 10325 3725
+Wire Wire Line
+	8475 3425 8725 3425
+Text Label 8475 3425 2    50   ~ 0
+MOSI
+Wire Wire Line
+	8725 3525 8475 3525
+Text Label 8475 3525 2    50   ~ 0
+CLK
+Wire Wire Line
+	8725 3625 8475 3625
+Text Label 8475 3625 2    50   ~ 0
+CS_DAC\
+Wire Wire Line
+	10225 4700 9975 4700
+Wire Wire Line
+	9975 3825 10225 3825
+Wire Wire Line
+	10125 4600 9975 4600
+Wire Wire Line
+	9975 3925 10125 3925
+Wire Wire Line
+	8475 5250 8725 5250
+Wire Wire Line
+	8475 4700 8725 4700
+Text Label 8475 4700 2    50   ~ 0
+MISO
+Wire Wire Line
+	8475 4800 8725 4800
+Text Label 8475 4800 2    50   ~ 0
+MOSI
+Wire Wire Line
+	8725 4900 8475 4900
+$Sheet
+S 8725 4490 1250 1010
+U 62229477
+F0 "Voltage_measurement" 50
+F1 "Voltage_measurement.sch" 50
+F2 "MISO" O L 8725 4700 50 
+F3 "CLK" O L 8725 4900 50 
+F4 "MOSI" I L 8725 4800 50 
+F5 "CS_ADC1\\" I L 8725 5000 50 
+F6 "CS_ADC2\\" I L 8725 5100 50 
+F7 "MISO_B" O L 8725 5250 50 
+F8 "CELL_I" I R 9975 4700 50 
+F9 "CELL_V" I R 9975 4600 50 
+F10 "Aux_1" I R 9975 4800 50 
+F11 "2.5_ref" I L 8725 5425 50 
+$EndSheet
+Text Label 8475 4900 2    50   ~ 0
+CLK
+Wire Wire Line
+	8475 5100 8725 5100
+Text Label 8475 5100 2    50   ~ 0
+CS_ADC2\
+Wire Wire Line
+	8725 5000 8475 5000
+Text Label 8475 5000 2    50   ~ 0
+CS_ADC1\
+Text Label 8475 5250 2    50   ~ 0
+MISO_B
+$Sheet
+S 8725 3075 1250 950 
+U 6208221F
+F0 "Voltage_generator" 50
+F1 "Voltage_generator.sch" 50
+F2 "MOSI" I L 8725 3425 50 
+F3 "CLK" I L 8725 3525 50 
+F4 "CS_DAC\\" I L 8725 3625 50 
+F5 "I_mon" O R 9975 3725 50 
+F6 "TH_ERROR\\" O R 9975 3225 50 
+F7 "C+" O R 9975 3575 50 
+F8 "CELL_I" O R 9975 3825 50 
+F9 "CELL_V" O R 9975 3925 50 
+F10 "2.5_ref" I L 8725 3925 50 
+$EndSheet
+Wire Wire Line
+	6975 1900 7250 1900
+Wire Wire Line
+	6975 1425 6975 1375
+Wire Wire Line
+	6975 1725 6975 1900
+Wire Wire Line
+	6975 2200 6975 2250
+$Comp
+L board-rescue:GNDA-power #PWR?
+U 1 1 6201E264
+P 6975 2250
+AR Path="/6208221F/6201E264" Ref="#PWR?"  Part="1" 
+AR Path="/6201E264" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 6975 2000 50  0001 C CNN
+F 1 "GNDA" H 6980 2077 50  0000 C CNN
+F 2 "" H 6975 2250 50  0001 C CNN
+F 3 "" H 6975 2250 50  0001 C CNN
+	1    6975 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6975 1900
+$Comp
+L Device:D_Zener D?
+U 1 1 6201E26F
+P 6975 2050
+AR Path="/6208221F/6201E26F" Ref="D?"  Part="1" 
+AR Path="/6201E26F" Ref="D1"  Part="1" 
+F 0 "D1" V 6925 1825 50  0000 L CNN
+F 1 "2.5 Ref" V 7000 1700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6975 2050 50  0001 C CNN
+F 3 "~" H 6975 2050 50  0001 C CNN
+F 4 "TL4050A25IDBZR" V 6975 2050 50  0001 C CNN "PN"
+F 5 "296-22783-1-ND" V 6975 2050 50  0001 C CNN "Digikey PN"
+F 6 "Texas Instruments" V 6975 2050 50  0001 C CNN "Manufacturer"
+F 7 "Shunt Riferimento di tensione IC ±0,1% SOT-23-3" V 6975 2050 50  0001 C CNN "Description"
+	1    6975 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L board-rescue:R-Device R5
+U 1 1 6201E279
+P 6975 1575
+AR Path="/6201E279" Ref="R5"  Part="1" 
+AR Path="/6208221F/6201E279" Ref="R?"  Part="1" 
+F 0 "R5" V 7065 1495 50  0000 C CNN
+F 1 "2.2k" V 6975 1575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6905 1575 50  0001 C CNN
+F 3 "~" H 6975 1575 50  0001 C CNN
+F 4 "RC0603FR-072K2L" H 6975 1575 50  0001 C CNN "PN"
+F 5 "YAGEO" H 6975 1575 50  0001 C CNN "Manufacturer"
+F 6 "311-2.20KHRCT-ND" H 6975 1575 50  0001 C CNN "Digikey PN"
+F 7 "RES 2.2K OHM 1% 1/10W 0603" V 6975 1575 50  0001 C CNN "Description"
+	1    6975 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-rescue:+5VA-power #PWR0102
+U 1 1 620285FF
+P 6975 1375
+F 0 "#PWR0102" H 6975 1225 50  0001 C CNN
+F 1 "+5VA" H 6990 1548 50  0000 C CNN
+F 2 "" H 6975 1375 50  0001 C CNN
+F 3 "" H 6975 1375 50  0001 C CNN
+	1    6975 1375
+	1    0    0    -1  
+$EndComp
+Text Label 7250 1900 0    50   ~ 0
+2.5_ref
+Wire Notes Line
+	6600 2700 7625 2700
+Wire Wire Line
+	8725 3925 8475 3925
+Text Label 8475 3925 2    50   ~ 0
+2.5_ref
+Wire Wire Line
+	8725 5425 8475 5425
+Text Label 8475 5425 2    50   ~ 0
+2.5_ref
+Wire Notes Line
+	725  2700 725  750 
+Wire Notes Line
+	725  750  2725 750 
+Wire Notes Line
+	2725 750  2725 2700
+Wire Notes Line
+	725  2700 2725 2700
+Text Label 3030 2015 0    50   ~ 0
+48V
+Wire Notes Line
+	8700 1075 9900 1075
+Wire Notes Line
+	9900 1075 9900 2375
+Wire Notes Line
+	8700 2375 8700 1075
+Wire Notes Line
+	8700 2375 9900 2375
+Text Notes 8950 1250 0    50   ~ 0
+Output Connectors\n
+Wire Notes Line
+	750  2975 6800 2975
+Wire Notes Line
+	6800 2975 6800 5850
+Wire Notes Line
+	750  2975 750  5850
+Wire Notes Line
+	6600 750  7625 750 
+Wire Notes Line
+	7625 750  7625 2700
+Wire Notes Line
+	6600 750  6600 2700
+Wire Notes Line
+	6800 5850 750  5850
+Wire Notes Line
+	8050 2950 11050 2950
+Wire Notes Line
+	11050 2950 11050 5825
+Wire Notes Line
+	11050 5825 8050 5825
+Wire Notes Line
+	8050 5825 8050 2950
+Wire Wire Line
+	10125 3925 10125 4600
+Wire Wire Line
+	10225 3825 10225 4700
+Wire Wire Line
+	10325 3725 10325 4800
+Wire Wire Line
+	2950 4400 5150 4400
+Wire Wire Line
+	2950 4500 5150 4500
+Wire Wire Line
+	2950 4600 5150 4600
+Wire Wire Line
+	5150 5125 3975 5125
+Wire Wire Line
+	3975 5125 3975 4900
+Connection ~ 3975 4900
+Wire Wire Line
+	3975 4900 4550 4900
+Wire Wire Line
+	3975 4700 3975 4900
+Wire Wire Line
+	3975 4700 4525 4700
+Wire Wire Line
+	2950 4700 3975 4700
+Connection ~ 3975 4700
+$EndSCHEMATC

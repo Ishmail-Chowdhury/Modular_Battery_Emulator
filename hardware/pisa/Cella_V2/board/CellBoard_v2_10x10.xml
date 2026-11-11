@@ -1,0 +1,2503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\SEMES_PC2\Documents\Qsync\Project_Emulatore\Hardware\Cella_V2\board\CellBoard_v2_10x10.sch</source>
+    <date>11/04/2022 12:58:41</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Cell Emulator </title>
+        <company>Semes_Lab</company>
+        <rev/>
+        <date/>
+        <source>CellBoard_v2_10x10.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Voltage_measurement/" tstamps="/62229477/">
+      <title_block>
+        <title>Cell Emulation - Measurements</title>
+        <company>Semes Lab</company>
+        <rev/>
+        <date/>
+        <source>Voltage_measurement.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Voltage_generator/" tstamps="/6208221F/">
+      <title_block>
+        <title>Cell Emulator - Voltage generation</title>
+        <company>Semes Lab</company>
+        <rev/>
+        <date/>
+        <source>Voltage_generator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Descrizione">Condensatori elettrolitici in alluminio 100 V 100 µF Radiale, contenitore - 2000 ore a 105°C</field>
+        <field name="Digikey PN">399-ESH107M100AH4AA-ND</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="PN">ESH107M100AH4AA</field>
+      </fields>
+      <libsource lib="board-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC67F3B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC68AFD</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD814C1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD8832B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADUM4151</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <fields>
+        <field name="Description">DGT ISOL 5000VRMS 7CH SPI 20SOIC</field>
+        <field name="Digikey PN">ADUM4151BRIZ-ND</field>
+        <field name="Man">Analog Devices Inc.</field>
+        <field name="Manufacturer">Analog Devices Inc.</field>
+        <field name="PN">ADUM4151BRIZ</field>
+      </fields>
+      <libsource lib="board_lib" part="ADUM4151" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AAA837</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD8AD53</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ISO COM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC9B42</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>2.5 Ref</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">Shunt Riferimento di tensione IC ±0,1% SOT-23-3</field>
+        <field name="Digikey PN">296-22783-1-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">TL4050A25IDBZR</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6201E26F</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D41F65</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D43156</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Conn_26pos</value>
+      <footprint>board:Conn_26pos_Board</footprint>
+      <fields>
+        <field name="Digikey PN">A107666-ND (Header)</field>
+        <field name="Manufacturer">TE Connectivity </field>
+        <field name="PN">1761426-3 (Header)</field>
+      </fields>
+      <libsource lib="Project_Emulatore_Connettori" part="Conn_26pos" description="Footprint in Connettori.pretty - Conn_26pos_Board for PCB connector, Conn_26pos_Head for Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6230BFE0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628FDB3A</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629384C2</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62960228</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62968653</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62968660</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62968674</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62970125</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62970132</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62970146</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LogoUnipi</value>
+      <footprint>board:logo_cherubino</footprint>
+      <libsource lib="board_lib" part="LogoUnipi" description="Cherubino Unipi 7mmx7mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633F85D3</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>LogoSemes</value>
+      <footprint>board:logo_semeslab</footprint>
+      <libsource lib="board_lib" part="LogoSemes" description="Logo Semes_lab 23mmx7mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633F8BCD</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6257FD34</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">15 kOhms ±1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film spesso</field>
+        <field name="Digikey PN">A126341CT-ND</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="PN">CRG0805F15K</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62588F28</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AP7354-33W5-7</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="Digikey PN">AP7354-33W5-7DICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="PN">AP7354-33W5-7</field>
+      </fields>
+      <libsource lib="board_lib" part="AP7354-33W5-7" description="IC REG LINEAR 3.3V 150MA SOT25"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6257704E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62598CC9</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625DA4B1</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LM4041CIDCKT</value>
+      <footprint>board:LM4041CIDCKR</footprint>
+      <fields>
+        <field name="Digikey PN">296-32130-1-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">LM4041CIDCKT</field>
+      </fields>
+      <libsource lib="board_lib" part="LM4041CIDCKT" description="Shunt Riferimento di tensione IC 10 V ±0,5% SC-70-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624EF6B1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6257FD2A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">15 kOhms ±1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film spesso</field>
+        <field name="Digikey PN">A126341CT-ND</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="PN">CRG0805F15K</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6258D936</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC5CBBC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Descrizione">Condensatori elettrolitici in alluminio 100 V 100 µF Radiale, contenitore - 2000 ore a 105°C</field>
+        <field name="Digikey PN">399-ESH107M100AH4AA-ND</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="PN">ESH107M100AH4AA</field>
+      </fields>
+      <libsource lib="board-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62558831</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>URB4805YMD-20WR3</value>
+      <footprint>board:URB4805YMD-20WR3</footprint>
+      <fields>
+        <field name="Digikey PN">2725-URB4805YMD-20WR3-ND</field>
+        <field name="Manufacturer">Mornsun America, LLC</field>
+        <field name="PN">URB4805YMD-20WR3</field>
+      </fields>
+      <libsource lib="board_lib" part="URB4805YMD-20WR3" description="Modulo isolato Convertitori c.c./c.c. 1 Uscita 5V - - - 4A 18V - 75V Ingresso"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625C5C3F</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>LogoDII</value>
+      <footprint>loghi:logo_dii</footprint>
+      <libsource lib="loghi" part="LogoDII" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6266B2D5</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>1.24 V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6268647F</tstamp>
+    </comp>
+    <comp ref="TP23">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626A9B9F</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626B5249</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626C11C0</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>622498B1</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>62101B8D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 Ohms ±1% 0,1W, 1/10W Resistori su chip 0603 (1608 metrico) AEC-Q200 per settore automotive A film spesso</field>
+        <field name="Digikey PN">RMCF0603FT10R0CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0603FT10R0</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6224981A</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>62249841</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 Ohms ±1% 0,1W, 1/10W Resistori su chip 0603 (1608 metrico) AEC-Q200 per settore automotive A film spesso</field>
+        <field name="Digikey PN">RMCF0603FT10R0CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0603FT10R0</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>621A2A39</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 µF ±10% 16V Condensatori ceramici X7R 0805 (2012 metrico)</field>
+        <field name="Digikey PN">1276-6472-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6343A71A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 µF ±10% 16V Condensatori ceramici X7R 0805 (2012 metrico)</field>
+        <field name="Digikey PN">1276-6472-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>63439793</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 µF ±10% 16V Condensatori ceramici X7R 0805 (2012 metrico)</field>
+        <field name="Digikey PN">1276-6472-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>63579EE9</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.1 µF ±10% 50V Condensatori ceramici X7R 0603 (1608 metrico)</field>
+        <field name="Digikey PN">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6379A688</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.1 µF ±10% 50V Condensatori ceramici X7R 0603 (1608 metrico)</field>
+        <field name="Digikey PN">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6379B1FA</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.1 µF ±10% 50V Condensatori ceramici X7R 0603 (1608 metrico)</field>
+        <field name="Digikey PN">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>637C4B2E</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6381940F</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6383BBBF</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>39nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.039 µF ±10% 16V Condensatori ceramici X7R 0603 (1608 metrico)</field>
+        <field name="Digikey PN">1276-2057-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL10B393KO8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624ED517</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 Ohms ±1% 0,1W, 1/10W Resistori su chip 0603 (1608 metrico) AEC-Q200 per settore automotive A film spesso</field>
+        <field name="Digikey PN">RMCF0603FT10R0CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0603FT10R0</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625178BF</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 Ohms ±1% 0,1W, 1/10W Resistori su chip 0603 (1608 metrico) AEC-Q200 per settore automotive A film spesso</field>
+        <field name="Digikey PN">RMCF0603FT10R0CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0603FT10R0</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625178CF</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625178AC</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625178C5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6256BF24</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>62, 0.05%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">62 Ohms ±0,05% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) Anti-solforato, automotive AEC-Q200 A film sottile</field>
+        <field name="Digikey PN">RG20N62WCT-ND</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="PN">RG2012N-620-W-T1</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625FF4B2</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>120, 0.05%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">120 Ohms ±0,05% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) Anti-solforato, automotive AEC-Q200 A film sottile</field>
+        <field name="Digikey PN">RG20N120WCT-ND</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="PN">RG2012N-121-W-T1</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625FF8D5</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">33 kOhms ±1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) AEC-Q200 automotive, resistente all'umidità A film spesso</field>
+        <field name="Digikey PN">A129767CT-ND</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="PN">CRGCQ0805F33K</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624CFB7D</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624CFB87</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>62, 0.05%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">62 Ohms ±0,05% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) Anti-solforato, automotive AEC-Q200 A film sottile</field>
+        <field name="Digikey PN">RG20N62WCT-ND</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="PN">RG2012N-620-W-T1</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624D9253</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>120, 0.05%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">120 Ohms ±0,05% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) Anti-solforato, automotive AEC-Q200 A film sottile</field>
+        <field name="Digikey PN">RG20N120WCT-ND</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="PN">RG2012N-121-W-T1</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624D925D</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>62, 0.05%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">62 Ohms ±0,05% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) Anti-solforato, automotive AEC-Q200 A film sottile</field>
+        <field name="Digikey PN">RG20N62WCT-ND</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="PN">RG2012N-620-W-T1</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624DE5F5</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>120, 0.05%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">120 Ohms ±0,05% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) Anti-solforato, automotive AEC-Q200 A film sottile</field>
+        <field name="Digikey PN">RG20N120WCT-ND</field>
+        <field name="Manufacturer">Susumu</field>
+        <field name="PN">RG2012N-121-W-T1</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624DE5FF</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>624FE9EC</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>62pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">62 pF ±1% 100V Condensatori ceramici C0G, NP0 0603 (1608 metrico)</field>
+        <field name="Digikey PN">478-10243-1-ND</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="PN">06031U620FAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>62542741</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>DNM</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.039 µF ±10% 16V Condensatori ceramici X7R 0603 (1608 metrico)</field>
+        <field name="Digikey PN">1276-2057-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL10B393KO8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>62546B59</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>DNM</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.039 µF ±10% 16V Condensatori ceramici X7R 0603 (1608 metrico)</field>
+        <field name="Digikey PN">1276-2057-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL10B393KO8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6254B072</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>6258E51D</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>MCP3464R</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Descrizione">16 Convertitore analogico/digitale di bit 2 Ingresso 2 Sigma-Delta 20-TSSOP</field>
+        <field name="Digikey PN">150-MCP3464RT-E/STCT-ND</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="PN">MCP3464RT-E/ST</field>
+      </fields>
+      <libsource lib="board_lib" part="MCP3464R" description="16 Convertitore analogico/digitale di bit 4 Ingresso 1 Sigma-Delta 20-TSSOP"/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>625A01C7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04-Connector_Generic</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="board-rescue" part="Conn_01x04-Connector_Generic" description=""/>
+      <sheetpath names="/Voltage_measurement/" tstamps="/62229477/"/>
+      <tstamp>627DC731</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>62142EA9</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 16V Condensatori ceramici X7R 0805 (2012 metrico)</field>
+        <field name="Digikey PN">1276-6471-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B105KOFNNNG</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>62142E7C</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">478-3936-1-ND</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="PN">TAJD476K020RNJ</field>
+      </fields>
+      <libsource lib="board-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218AFEC</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218AFF6</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>RED LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">LED RED DIFFUSED 0805 SMD</field>
+        <field name="Digikey PN">475-1278-1-ND</field>
+        <field name="Manufacturer">OSRAM Opto Semiconductors Inc.</field>
+        <field name="PN">LS R976-NR-1</field>
+      </fields>
+      <libsource lib="board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B02B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 620 OHM 5% 1/10W 0603</field>
+        <field name="Digikey PN">RMCF0603JT620RCT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0603JT620R</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B037</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B055</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>IMon</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B05C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 0.1% 1/8W 0805</field>
+        <field name="Descrizione">10 kOhms ±0,1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film sottile</field>
+        <field name="Digikey PN">YAG1763CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="PN">RT0805BRD0710KL</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B077</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>EN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0A3</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>I_LIM_FL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0A9</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TH_FL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0AF</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0B6</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0BC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 0.1% 1/8W 0805</field>
+        <field name="Descrizione">10 kOhms ±0,1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film sottile</field>
+        <field name="Digikey PN">YAG1763CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="PN">RT0805BRD0710KL</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0C7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 0.1% 1/8W 0805</field>
+        <field name="Descrizione">10 kOhms ±0,1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film sottile</field>
+        <field name="Digikey PN">YAG1763CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="PN">RT0805BRD0710KL</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B0D8</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>62142E90</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>DAC8501</value>
+      <footprint>Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm</footprint>
+      <fields>
+        <field name="Description">IC DAC 16BIT V-OUT 8VSSOP</field>
+        <field name="Digikey PN">296-DAC8501E/2K5CT-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">DAC8501E/2K5</field>
+      </fields>
+      <libsource lib="board_lib" part="DAC8501" description="16 Convertitore digitale/analogico di bit 1 8-VSSOP"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61E60C81</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61E744D4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>5m</value>
+      <footprint>board:Shunt</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">5 mOhms ±1% 2W Resistori su chip 2512 (6432 metrico) AEC-Q200 automotive, rilevamento di corrente, resistente all'umidità Elemento metallico</field>
+        <field name="Digikey PN">CRF2512-FZ-R005ELFCT-ND</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="PN">CRF2512-FZ-R005ELF</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61E77AB7</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61EFEBEF</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B03D</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Bypass</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey Mating">SAM8748-ND</field>
+        <field name="Digikey PN">SAM9159-ND</field>
+        <field name="Manufacturer">Samtec Inc.</field>
+        <field name="Mating">2SN-BK-G</field>
+        <field name="PN">TMM-102-02-L-S</field>
+      </fields>
+      <libsource lib="board-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61F50B5F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">1 µF ±10% 16V Condensatori ceramici X7R 0805 (2012 metrico)</field>
+        <field name="Digikey PN">1276-6471-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B105KOFNNNG</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>623F0BDA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>623F0BE4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10 µF ±10% 16V Condensatori ceramici X7R 0805 (2012 metrico)</field>
+        <field name="Digikey PN">1276-6472-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>624A2F21</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP10H4D2S-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MOSFET P-CH 100V 270MA SOT23</field>
+        <field name="Digikey PN">DMP10H4D2S-7DICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="PN">DMP10H4D2S-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61F41DB9</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>DMP10H4D2S-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MOSFET P-CH 100V 270MA SOT23</field>
+        <field name="Digikey PN">DMP10H4D2S-7DICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="PN">DMP10H4D2S-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61F59715</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>ORANGE LED</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">LED ORANGE DIFFUSED 0805 SMD</field>
+        <field name="Digikey PN">475-2488-1-ND</field>
+        <field name="Manufacturer">OSRAM Opto Semiconductors Inc.</field>
+        <field name="PN">LO R976-PS-1</field>
+      </fields>
+      <libsource lib="board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61F62F38</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 620 OHM 5% 1/10W 0603</field>
+        <field name="Digikey PN">RMCF0603JT620RCT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0603JT620R</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61F6B908</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>OPA569</value>
+      <footprint>board:OPA569AIDWP</footprint>
+      <fields>
+        <field name="Description">IC OPAMP GP 1 CIRCUIT 20SOPWRPAD</field>
+        <field name="Digikey PN">296-14174-5-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">OPA569AIDWP</field>
+      </fields>
+      <libsource lib="board_lib" part="OPA569" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61FCFF92</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 0.1% 1/8W 0805</field>
+        <field name="Descrizione">10 kOhms ±0,1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film sottile</field>
+        <field name="Digikey PN">YAG1763CT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="PN">RT0805BRD0710KL</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61FFF5B8</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>62025241</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>IMon2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>620F2FB4</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>I_LIM_FL2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6214BB7D</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>TH_FL2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="board-rescue" part="TestPoint-Connector" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6215A093</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>DMP10H4D2S-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MOSFET P-CH 100V 270MA SOT23</field>
+        <field name="Digikey PN">DMP10H4D2S-7DICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="PN">DMP10H4D2S-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6220D2F7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DMP10H4D2S-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MOSFET P-CH 100V 270MA SOT23</field>
+        <field name="Digikey PN">DMP10H4D2S-7DICT-ND</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="PN">DMP10H4D2S-7</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6223723D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>OPA569</value>
+      <footprint>board:OPA569AIDWP</footprint>
+      <fields>
+        <field name="Description">IC OPAMP GP 1 CIRCUIT 20SOPWRPAD</field>
+        <field name="Digikey PN">296-14174-5-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">OPA569AIDWP</field>
+      </fields>
+      <libsource lib="board_lib" part="OPA569" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6218B09D</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>47uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">478-3936-1-ND</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="PN">TAJD476K020RNJ</field>
+      </fields>
+      <libsource lib="board-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>62712AF6</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>62712B00</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Bypass</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey Mating">SAM8748-ND</field>
+        <field name="Digikey PN">SAM9159-ND</field>
+        <field name="Manufacturer">Samtec Inc.</field>
+        <field name="Mating">2SN-BK-G</field>
+        <field name="PN">TMM-102-02-L-S</field>
+      </fields>
+      <libsource lib="board-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61FAC958</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey PN">1276-6840-1-ND</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="PN">CL21B104KCFNNNE</field>
+      </fields>
+      <libsource lib="board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61FAB9E3</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TMCS1101A3BQDRQ1</value>
+      <footprint>Package_SO:SOIC-8_5.275x5.275mm_P1.27mm</footprint>
+      <fields>
+        <field name="Description">Sensori di corrente ±11,25A 1 canale Effetto Hall Bidirezionale 8-SOIC (0,154", 3,90mm di larghezza)</field>
+        <field name="Digikey PN">296-TMCS1101A3BQDRQ1CT-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">TMCS1101A3BQDRQ1</field>
+      </fields>
+      <libsource lib="board_lib" part="TMCS1101A3BQDRQ1" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>621E485F</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61FF3760</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>INA186A2IDDFR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8_Handsoldering</footprint>
+      <fields>
+        <field name="Descrizione">Per rilevazione di corrente Amplificatori 1 Circuiti Rail-to-rail TSOT-23-8</field>
+        <field name="Digikey PN">296-INA186A2IDDFRCT-ND</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">INA186A2IDDFR</field>
+      </fields>
+      <libsource lib="board_lib" part="INA186A2IDDFR" description="Per rilevazione di corrente Amplificatori 1 Circuiti Rail-to-rail TSOT-23-8"/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>6258F170</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES 0 OHM JUMPER 1/8W 0805</field>
+        <field name="Digikey PN">RMCF0805ZT0R00CT-ND</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="PN">RMCF0805ZT0R00</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>61FF3768</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 0.1% 1/8W 0805</field>
+        <field name="Descrizione">10 kOhms ±0,1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film sottile</field>
+        <field name="Digikey PN">YAG1763CT-ND</field>
+        <field name="Man">YAGEO</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="PN">RT0805BRD0710KL</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>627D94E3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>DNM</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 0.1% 1/8W 0805</field>
+        <field name="Descrizione">10 kOhms ±0,1% 0,125W, 1/8W Resistori su chip 0805 (2012 metrico) - A film sottile</field>
+        <field name="Digikey PN">YAG1763CT-ND</field>
+        <field name="Man">YAGEO</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="PN">RT0805BRD0710KL</field>
+      </fields>
+      <libsource lib="board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/Voltage_generator/" tstamps="/6208221F/"/>
+      <tstamp>627DA885</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project_Emulatore_Connettori" part="Conn_26pos">
+      <description>Footprint in Connettori.pretty - Conn_26pos_Board for PCB connector, Conn_26pos_Head for Header</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn_26pos</field>
+        <field name="Manufacturer">TE Connectivity </field>
+        <field name="PN">1761426-3 (Header)</field>
+        <field name="Digikey PN">A107666-ND (Header)</field>
+      </fields>
+      <pins>
+        <pin num="P1" name="~" type="passive"/>
+        <pin num="P4" name="~" type="passive"/>
+        <pin num="P7" name="~" type="passive"/>
+        <pin num="P10" name="~" type="passive"/>
+        <pin num="P13" name="~" type="passive"/>
+        <pin num="P16" name="~" type="passive"/>
+        <pin num="S1" name="~" type="passive"/>
+        <pin num="S2" name="~" type="passive"/>
+        <pin num="S3" name="~" type="passive"/>
+        <pin num="S4" name="~" type="passive"/>
+        <pin num="S5" name="~" type="passive"/>
+        <pin num="S6" name="~" type="passive"/>
+        <pin num="S7" name="~" type="passive"/>
+        <pin num="S8" name="~" type="passive"/>
+        <pin num="S9" name="~" type="passive"/>
+        <pin num="S10" name="~" type="passive"/>
+        <pin num="S11" name="~" type="passive"/>
+        <pin num="S12" name="~" type="passive"/>
+        <pin num="S13" name="~" type="passive"/>
+        <pin num="S14" name="~" type="passive"/>
+        <pin num="S15" name="~" type="passive"/>
+        <pin num="S16" name="~" type="passive"/>
+        <pin num="S17" name="~" type="passive"/>
+        <pin num="S18" name="~" type="passive"/>
+        <pin num="S19" name="~" type="passive"/>
+        <pin num="S20" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="Conn_01x04-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board-rescue" part="TestPoint-Connector">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="ADUM4151">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUM4151</field>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="PN">ADUM4151BRIZ</field>
+        <field name="Man">Analog Devices Inc.</field>
+        <field name="Digikey PN">ADUM4151BRIZ-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="MCLK" type="input"/>
+        <pin num="4" name="MO" type="input"/>
+        <pin num="5" name="MI" type="output"/>
+        <pin num="6" name="MSS\" type="input"/>
+        <pin num="7" name="VIA" type="input"/>
+        <pin num="8" name="VIB" type="input"/>
+        <pin num="9" name="VOC" type="output"/>
+        <pin num="10" name="GND1" type="power_in"/>
+        <pin num="11" name="GND2" type="power_in"/>
+        <pin num="12" name="VIC" type="input"/>
+        <pin num="13" name="VOB" type="output"/>
+        <pin num="14" name="VOA" type="output"/>
+        <pin num="15" name="SSS\" type="output"/>
+        <pin num="16" name="SO" type="input"/>
+        <pin num="17" name="SI" type="output"/>
+        <pin num="18" name="SCLK" type="output"/>
+        <pin num="19" name="GND2" type="power_in"/>
+        <pin num="20" name="Vdd2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="AP7354-33W5-7">
+      <description>IC REG LINEAR 3.3V 150MA SOT25</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7354-33W5-7</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5_HandSoldering</field>
+        <field name="PN">AP7354-33W5-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Digikey PN">AP7354-33W5-7DICT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="DAC8501">
+      <description>16 Convertitore digitale/analogico di bit 1 8-VSSOP</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC8501</field>
+        <field name="Footprint">Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PN">DAC8501E/2K5</field>
+        <field name="Digikey PN">296-DAC8501E/2K5CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VRef" type="input"/>
+        <pin num="3" name="Vfb" type="input"/>
+        <pin num="4" name="Vout" type="output"/>
+        <pin num="5" name="SYNC" type="input"/>
+        <pin num="6" name="SCLK" type="input"/>
+        <pin num="7" name="Din" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="INA186A2IDDFR">
+      <description>Per rilevazione di corrente Amplificatori 1 Circuiti Rail-to-rail TSOT-23-8</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA186A2IDDFR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-8_Handsoldering</field>
+        <field name="PN">INA186A2IDDFR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Digikey PN">296-INA186A2IDDFRCT-ND</field>
+        <field name="Descrizione">Per rilevazione di corrente Amplificatori 1 Circuiti Rail-to-rail TSOT-23-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vs" type="power_in"/>
+        <pin num="2" name="En" type="input"/>
+        <pin num="3" name="Ref" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Out" type="output"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="In+" type="input"/>
+        <pin num="8" name="In-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="LM4041CIDCKT">
+      <description>Shunt Riferimento di tensione IC 10 V ±0,5% SC-70-5</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4041CIDCKT</field>
+        <field name="Footprint">board:LM4041CIDCKR</field>
+        <field name="PN">LM4041CIDCKT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Digikey PN">296-32130-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="2" name="Anode" type="input"/>
+        <pin num="3" name="Cathode" type="input"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="LogoSemes">
+      <description>Logo Semes_lab 23mmx7mm</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LogoSemes</field>
+        <field name="Footprint">board:logo_semeslab</field>
+      </fields>
+    </libpart>
+    <libpart lib="board_lib" part="LogoUnipi">
+      <description>Cherubino Unipi 7mmx7mm</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LogoUnipi</field>
+        <field name="Footprint">board:logo_cherubino</field>
+      </fields>
+    </libpart>
+    <libpart lib="board_lib" part="MCP3464R">
+      <description>16 Convertitore analogico/digitale di bit 4 Ingresso 1 Sigma-Delta 20-TSSOP</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3464R</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="PN">MCP3464RT-E/ST</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Digikey PN">150-MCP3464RT-E/STCT-ND</field>
+        <field name="Descrizione">16 Convertitore analogico/digitale di bit 2 Ingresso 2 Sigma-Delta 20-TSSOP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVdd" type="power_in"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="Ref_IN-" type="input"/>
+        <pin num="4" name="Ref_in+/Out" type="passive"/>
+        <pin num="5" name="Ch0" type="input"/>
+        <pin num="6" name="Ch1" type="input"/>
+        <pin num="7" name="Ch2" type="input"/>
+        <pin num="8" name="Ch3" type="input"/>
+        <pin num="9" name="Ch4" type="input"/>
+        <pin num="10" name="Ch5" type="input"/>
+        <pin num="11" name="Ch6" type="passive"/>
+        <pin num="12" name="Ch7" type="passive"/>
+        <pin num="13" name="\CS" type="input"/>
+        <pin num="14" name="SCK" type="input"/>
+        <pin num="15" name="SDI" type="input"/>
+        <pin num="16" name="SDO" type="output"/>
+        <pin num="17" name="\IRQ" type="output"/>
+        <pin num="18" name="MCLK" type="input"/>
+        <pin num="19" name="DGND" type="power_in"/>
+        <pin num="20" name="DVdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="OPA569">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA569</field>
+        <field name="Digikey PN">296-14174-5-ND</field>
+        <field name="PN">OPA569AIDWP</field>
+        <field name="Description">IC OPAMP GP 1 CIRCUIT 20SOPWRPAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PP" type="passive"/>
+        <pin num="2" name="P_out1" type="passive"/>
+        <pin num="3" name="I_LIM_SET" type="input"/>
+        <pin num="4" name="I_LIM_FLAG" type="output"/>
+        <pin num="5" name="-In" type="input"/>
+        <pin num="6" name="+In" type="input"/>
+        <pin num="7" name="TH_FLAG" type="output"/>
+        <pin num="8" name="ENABLE" type="input"/>
+        <pin num="9" name="P_out2" type="passive"/>
+        <pin num="10" name="PP" type="passive"/>
+        <pin num="11" name="PP" type="passive"/>
+        <pin num="12" name="V+" type="power_in"/>
+        <pin num="13" name="V+" type="power_in"/>
+        <pin num="14" name="Vout" type="passive"/>
+        <pin num="15" name="Vout" type="passive"/>
+        <pin num="17" name="V-" type="power_in"/>
+        <pin num="18" name="V-" type="power_in"/>
+        <pin num="19" name="I_MON" type="input"/>
+        <pin num="20" name="PP" type="passive"/>
+        <pin num="21" name="TH_PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="TMCS1101A3BQDRQ1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMCS1101A3BQDRQ1</field>
+        <field name="PN">TMCS1101A3BQDRQ1</field>
+        <field name="Digikey_PN">296-TMCS1101A3BQDRQ1CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In+" type="input"/>
+        <pin num="2" name="In+" type="input"/>
+        <pin num="3" name="In-" type="input"/>
+        <pin num="4" name="In-" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="Vout" type="output"/>
+        <pin num="8" name="Vs" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="board_lib" part="URB4805YMD-20WR3">
+      <description>Modulo isolato Convertitori c.c./c.c. 1 Uscita 5V - - - 4A 18V - 75V Ingresso</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">URB4805YMD-20WR3</field>
+        <field name="Footprint">board:URB4805YMD-20WR3</field>
+        <field name="PN">URB4805YMD-20WR3</field>
+        <field name="Manufacturer">Mornsun America, LLC</field>
+        <field name="Digikey PN">2725-URB4805YMD-20WR3-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Ctrl" type="passive"/>
+        <pin num="2" name="GNDi" type="power_in"/>
+        <pin num="3" name="Vin" type="power_in"/>
+        <pin num="4" name="Vo" type="power_out"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="GNDo" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="loghi" part="LogoDII">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LogoDII</field>
+        <field name="Footprint">loghi:logo_dii</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Project_Emulatore_Connettori">
+      <uri>C:\Users\SEMES_PC2\Documents\Qsync\Project_Emulatore\Hardware\Cella_V2\board/Project_Emulatore_Connettori.lib</uri>
+    </library>
+    <library logical="board-rescue">
+      <uri>C:\Users\SEMES_PC2\Documents\Qsync\Project_Emulatore\Hardware\Cella_V2\board/board-rescue.lib</uri>
+    </library>
+    <library logical="board_lib">
+      <uri>C:\Users\SEMES_PC2\Documents\Qsync\Project_Emulatore\Hardware\Cella_V2\board/board_lib.lib</uri>
+    </library>
+    <library logical="loghi">
+      <uri>C:\Users\SEMES_PC2\Documents\Qsync\Project_Emulatore\Hardware\Cella_V2\board/Loghi/loghi.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/MISO_1">
+      <node ref="J4" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U3" pin="S3"/>
+    </net>
+    <net code="2" name="/Vcell_aux_gnd">
+      <node ref="U3" pin="S1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="3" name="/MOSI_1">
+      <node ref="U3" pin="S4"/>
+      <node ref="R40" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="/CLK_1">
+      <node ref="R42" pin="1"/>
+      <node ref="U3" pin="S5"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="5" name="/Vcell_aux">
+      <node ref="R29" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U3" pin="S20"/>
+    </net>
+    <net code="6" name="/MISO_2">
+      <node ref="U3" pin="S18"/>
+      <node ref="J4" pin="3"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="7" name="/MOSI_2">
+      <node ref="R41" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U3" pin="S17"/>
+    </net>
+    <net code="8" name="/CLK_2">
+      <node ref="R43" pin="2"/>
+      <node ref="U3" pin="S16"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="C15" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U3" pin="S8"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U12" pin="20"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="13"/>
+      <node ref="C13" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U9" pin="13"/>
+      <node ref="U9" pin="12"/>
+      <node ref="C14" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C15" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="6"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U13" pin="4"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U5" pin="17"/>
+      <node ref="U5" pin="18"/>
+      <node ref="U5" pin="20"/>
+      <node ref="U5" pin="21"/>
+      <node ref="U9" pin="18"/>
+      <node ref="U9" pin="21"/>
+      <node ref="U9" pin="20"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U9" pin="17"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U9" pin="10"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U3" pin="S13"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U3" pin="P1"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U12" pin="19"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C21" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="P4"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="13" name="/5V_in">
+      <node ref="J1" pin="9"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="S6"/>
+    </net>
+    <net code="14" name="/TH_ERROR">
+      <node ref="U5" pin="7"/>
+      <node ref="R14" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="15" name="/Aux1">
+      <node ref="U3" pin="S7"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U12" pin="11"/>
+    </net>
+    <net code="16" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="17" name="/GND_in_pwr">
+      <node ref="U3" pin="P10"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="18" name="Net-(TP21-Pad1)">
+      <node ref="TP21" pin="1"/>
+      <node ref="U3" pin="S2"/>
+    </net>
+    <net code="19" name="Net-(TP22-Pad1)">
+      <node ref="TP22" pin="1"/>
+      <node ref="U3" pin="S19"/>
+    </net>
+    <net code="20" name="Net-(TP23-Pad1)">
+      <node ref="U2" pin="13"/>
+      <node ref="TP23" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="/1.24_Vref">
+      <node ref="U12" pin="10"/>
+      <node ref="TP20" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="23" name="Net-(R17-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="24" name="/MOSI">
+      <node ref="U4" pin="7"/>
+      <node ref="U12" pin="15"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="25" name="/MISO">
+      <node ref="U12" pin="16"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="26" name="/Voltage_generator/CELL_I">
+      <node ref="R19" pin="1"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="27" name="/CS_DAC\">
+      <node ref="U2" pin="15"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="28" name="/CLK">
+      <node ref="U2" pin="18"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U12" pin="14"/>
+    </net>
+    <net code="29" name="/Voltage_measurement/I_MON">
+      <node ref="U5" pin="19"/>
+      <node ref="R22" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="30" name="/C+">
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U3" pin="P16"/>
+      <node ref="U3" pin="P13"/>
+      <node ref="TP13" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="31" name="/GND_in_sig">
+      <node ref="U3" pin="S15"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="32" name="/VOC_in">
+      <node ref="U3" pin="S12"/>
+      <node ref="U2" pin="9"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="33" name="/MISO_in">
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="34" name="/CS_A">
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="S11"/>
+    </net>
+    <net code="35" name="/MOSI_in">
+      <node ref="J1" pin="7"/>
+      <node ref="R40" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="36" name="/CLK_in">
+      <node ref="R43" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="37" name="/CS_B">
+      <node ref="U3" pin="S9"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="38" name="/CS_ADC1\">
+      <node ref="U12" pin="13"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="39" name="/Aux2">
+      <node ref="U3" pin="S14"/>
+      <node ref="U12" pin="12"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="40" name="/VIB_in">
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="S10"/>
+    </net>
+    <net code="41" name="/48V">
+      <node ref="R38" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="P7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="42" name="/2.5_Vref">
+      <node ref="R36" pin="1"/>
+      <node ref="U12" pin="9"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="43" name="Net-(U5-Pad2)">
+      <node ref="U9" pin="2"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U5-Pad9)">
+      <node ref="U9" pin="9"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="45" name="Net-(TP17-Pad1)">
+      <node ref="U9" pin="19"/>
+      <node ref="TP17" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="47" name="Net-(R35-Pad2)">
+      <node ref="U9" pin="8"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="48" name="/Voltage_generator/I_LIM_FL2">
+      <node ref="U9" pin="4"/>
+      <node ref="TP16" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="49" name="/Voltage_generator/TH_FL2">
+      <node ref="U9" pin="7"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="TP18" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="50" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="51" name="Net-(Q2-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D2-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="53" name="Net-(U13-Pad6)">
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="55" name="/Voltage_generator/Shunt-">
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="U13" pin="8"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="57" name="/Voltage_generator/Shunt+">
+      <node ref="U5" pin="14"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U13" pin="7"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="58" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="59" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="60" name="Net-(R10-Pad1)">
+      <node ref="U9" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="61" name="Net-(R19-Pad2)">
+      <node ref="U6" pin="7"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="62" name="/Voltage_generator/I_LIM_FL">
+      <node ref="Q1" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="63" name="Net-(R6-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D3-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="65" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="66" name="Net-(TP19-Pad1)">
+      <node ref="TP19" pin="1"/>
+      <node ref="U12" pin="17"/>
+    </net>
+    <net code="67" name="Net-(C21-Pad1)">
+      <node ref="R34" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="68" name="Net-(TP15-Pad1)">
+      <node ref="U12" pin="18"/>
+      <node ref="TP15" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="70" name="Net-(C20-Pad1)">
+      <node ref="R33" pin="2"/>
+      <node ref="U12" pin="7"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C18-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="U12" pin="5"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="U12" pin="6"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="73" name="Net-(C22-Pad1)">
+      <node ref="U12" pin="4"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R29-Pad2)">
+      <node ref="R33" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="75" name="Net-(R31-Pad2)">
+      <node ref="R34" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="76" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AB47S
+F SSR RELAY SPST-NO 1.25A 0-80V
+$ENDCMP
+#
+#End Doc Library

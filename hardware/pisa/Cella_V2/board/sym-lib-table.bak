@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name New_Library)(type Legacy)(uri ${KIPRJMOD}/New_Library.lib)(options "")(descr ""))
+  (lib (name board_lib)(type Legacy)(uri ${KIPRJMOD}/board_lib.lib)(options "")(descr ""))
+  (lib (name board-rescue)(type Legacy)(uri ${KIPRJMOD}/board-rescue.lib)(options "")(descr ""))
+  (lib (name Project_Emulatore_Connettori)(type Legacy)(uri ${KIPRJMOD}/Project_Emulatore_Connettori.lib)(options "")(descr ""))
+  (lib (name CellBoard_v2_10x10-rescue)(type Legacy)(uri ${KIPRJMOD}/CellBoard_v2_10x10-rescue.lib)(options "")(descr ""))
+  (lib (name loghi)(type Legacy)(uri ${KIPRJMOD}/Loghi/loghi.lib)(options "")(descr ""))
+)

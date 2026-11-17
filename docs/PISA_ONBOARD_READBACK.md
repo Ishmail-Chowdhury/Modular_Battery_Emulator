@@ -2,6 +2,8 @@
 
 Each backplane selects one of its eight CVE ADC replies. The card's MAX14850 output travels through R44, U3 contact S3, the mating backplane slot's S3 contact and an individual PCB trace to U8. The selected reply leaves the board at M1 pin 33. Both backplanes use the same layout. The CVE cards plug directly into their slots for the complete readback connection.
 
+The first build is **one CVE and one backplane**. Move the same card through all eight slots to qualify the routing before deciding whether to fabricate the remaining units. The [controller-side prototype pin review](../../FPGA-HIL-BMS-Controller/docs/PISA_CMU_PROTOTYPE_INTERFACE.md) records the proposed Arty adapter and the parallel CMU interface review.
+
 Open `hardware/pisa/board_V2/board.kicad_pro` in KiCad 10. The current PCB uses two copper layers, F.Cu and B.Cu, and its matching `board.kicad_sch`. The inherited `board.sch` is the pre-mux schematic. All eight individual readback paths, the mux power and address connections, and the selected return to M1 are routed on those two layers. The card-slot footprints, board outline, component placement and pin assignments are unchanged from the reviewed mux revision.
 
 ## CVE assembly
@@ -49,3 +51,9 @@ To pass the individual readback traces through the original shared-bus area, sev
 KiCad DRC after zone refill: **0 errors, 0 unconnected items and 126 existing warnings**. Schematic parity: **0 errors and 80 existing footprint/library-field warnings**. The final comparison also confirms all 87 footprints and 698 physical pad instances retain their positions, sizes, drill sizes and net assignments, and the board outline is unchanged. See [verification details](verification/backplane_two_layer_2026_11_11.json) and [KiCad DRC report](verification/backplane_two_layer_DRC_2026_11_11.json).
 
 The two-layer routing uses longer traces and more through vias than the four-layer version. Bench qualification still requires checking SPI waveforms at the most distant slot and comparing every selected ADC reading with a meter. Start at a conservative SPI clock and establish the usable speed on the assembled system; the layout checks do not establish a tested SPI speed.
+
+## Temperature card readback — TEMP-LAYOUT-1
+
+The temperature card's own eight-channel TLV2548 reads A–H; it needs no additional eight-way mux. Fit R12/R18/R20 for bus 2. SCLK is M1.38, MOSI M1.36, temperature MISO M1.34, ADC CS M1.45, DAC CS M1.47 and EOC M1.43, with host 3.3 V/GNDS on M1.39/M1.40. The path is routed through U7/T1 with no patch wires. M1.34 is distinct from CVE mux return M1.33.
+
+For two backplanes, use two separate temperature MISO inputs and two separate CVE returns. Do not directly join the temperature isolator outputs: deselecting the ADC does not tri-state the MAX14850. The present Arty bench prototype is still CVE-only; temperature-controller/adapter integration and assembled timing checks remain. See [the complete layout and readback review](TEMPERATURE_LAYOUT_READBACK_2026_11_17.md).

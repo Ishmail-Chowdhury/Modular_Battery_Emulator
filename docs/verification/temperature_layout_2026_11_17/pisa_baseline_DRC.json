@@ -1,0 +1,1243 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-17T13:41:38",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "baseline.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b04"
+                },
+                {
+                    "description": "Pad 1 [GND] of U7 on B.Cu",
+                    "pos": {
+                        "x": 49.72,
+                        "y": 131.43
+                    },
+                    "uuid": "f6650be1-e551-411a-9861-7ce2f661626a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b04"
+                },
+                {
+                    "description": "Pad 5 [GND] of U7 on B.Cu",
+                    "pos": {
+                        "x": 54.8,
+                        "y": 131.43
+                    },
+                    "uuid": "c1283cf7-6125-4270-9080-5c469688131d"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b07"
+                },
+                {
+                    "description": "Pad 1 [GND] of C9 on F.Cu",
+                    "pos": {
+                        "x": 51.6375,
+                        "y": 47.85
+                    },
+                    "uuid": "947faf46-9f7f-4303-9902-fd9498d058b1"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b04"
+                },
+                {
+                    "description": "Pad 9 [GND] of U7 on B.Cu",
+                    "pos": {
+                        "x": 59.88,
+                        "y": 131.43
+                    },
+                    "uuid": "0921066f-7cfb-4343-bd0b-68cac22b2748"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b04"
+                },
+                {
+                    "description": "Pad 13 [GND] of U7 on B.Cu",
+                    "pos": {
+                        "x": 64.96,
+                        "y": 131.43
+                    },
+                    "uuid": "c8a0ce7c-7787-44ec-8610-54354f41c316"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b07"
+                },
+                {
+                    "description": "Pad 4 [GND] of U7 on F.Cu",
+                    "pos": {
+                        "x": 52.26,
+                        "y": 131.4328
+                    },
+                    "uuid": "be5950d3-a85f-4241-8cc0-ae9725ebf3a6"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b07"
+                },
+                {
+                    "description": "Pad 8 [GND] of U7 on F.Cu",
+                    "pos": {
+                        "x": 57.34,
+                        "y": 131.4328
+                    },
+                    "uuid": "7939243f-50d1-4714-8d6e-8bef0bc80b19"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b07"
+                },
+                {
+                    "description": "Pad 12 [GND] of U7 on F.Cu",
+                    "pos": {
+                        "x": 62.42,
+                        "y": 131.4328
+                    },
+                    "uuid": "eb2aa1e4-4c3c-4a45-bb1e-6c064823938e"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 75.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000626a3b07"
+                },
+                {
+                    "description": "Pad 16 [GND] of U7 on F.Cu",
+                    "pos": {
+                        "x": 67.5,
+                        "y": 131.4328
+                    },
+                    "uuid": "c7cef137-498d-4f87-b8fc-5e36d128a067"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 64.15,
+                        "y": 79.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a414d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP4",
+                    "pos": {
+                        "x": 84.7,
+                        "y": 63.6
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a41bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 72.21,
+                        "y": 71.89
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a437b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 71.45,
+                        "y": 85.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a43ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 85.67,
+                        "y": 106.64
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a53c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 57.05,
+                        "y": 31.75
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a5d84"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R15",
+                    "pos": {
+                        "x": 57.05,
+                        "y": 35.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a5db4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 83.55
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623a69bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 55.9,
+                        "y": 67.3
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623abfa1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 47.85
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ac002"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 69.9,
+                        "y": 92.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ac0d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J7",
+                    "pos": {
+                        "x": 90.21,
+                        "y": 92.62
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ac0f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP6",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 57.6
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ac216"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP2",
+                    "pos": {
+                        "x": 55.15,
+                        "y": 99.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ac2be"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'footprint'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 80.21,
+                        "y": 77.69
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ac352"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 72.6,
+                        "y": 123.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623ad255"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP9",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 46.8
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623aef7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP12",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 36.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623aefba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP8",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 50.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623aeff6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP7",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 54.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623af032"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP10",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 43.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623af06e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Radial_D5.0mm_P2.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 65.1,
+                        "y": 84.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623afcb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 97.9,
+                        "y": 67.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623afce2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP5",
+                    "pos": {
+                        "x": 84.7,
+                        "y": 60.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623c5d98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 95.7,
+                        "y": 63.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000623cc54d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 56.1,
+                        "y": 86.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b5471"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 56.15,
+                        "y": 94.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b6e65"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 69.8,
+                        "y": 40.6
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b8617"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'footprints'",
+            "items": [
+                {
+                    "description": "Footprint U8",
+                    "pos": {
+                        "x": 76.35,
+                        "y": 38.85
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b870f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R20",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 111.1
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b8815"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R18",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 111.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b8845"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 101.1,
+                        "y": 111.1
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b8875"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 97.85,
+                        "y": 32.35
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b88a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 96.25,
+                        "y": 111.1
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b88d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 76.25,
+                        "y": 111.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b8905"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 57.0,
+                        "y": 28.45
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000624b8935"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 96.15,
+                        "y": 106.65
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062502ba8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 76.07,
+                        "y": 106.64
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062502c5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R17",
+                    "pos": {
+                        "x": 85.7,
+                        "y": 111.05
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062502c97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 57.05,
+                        "y": 38.35
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062502cc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 85.15,
+                        "y": 120.8
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062503b92"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connettori'",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 69.752,
+                        "y": 133.64
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062503c96"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R21",
+                    "pos": {
+                        "x": 79.3,
+                        "y": 50.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062507f50"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 69.4,
+                        "y": 79.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625116a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 102.25,
+                        "y": 98.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625116d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP1",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 90.6
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062511706"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'loghi'",
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 44.4,
+                        "y": 71.1
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625414b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'loghi'",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 44.3,
+                        "y": 86.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625417e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'loghi'",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 107.2,
+                        "y": 47.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062541ab5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'PinHeader_2x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 37.5,
+                        "y": 100.45
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062541c4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 76.1,
+                        "y": 50.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062561174"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R23",
+                    "pos": {
+                        "x": 72.8,
+                        "y": 50.65
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062561185"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R24",
+                    "pos": {
+                        "x": 69.55,
+                        "y": 50.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062561196"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-16_3.9x9.9mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 103.55,
+                        "y": 75.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625612a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP11",
+                    "pos": {
+                        "x": 96.9,
+                        "y": 39.6
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062567155"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP13",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 121.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006256c5cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'footprints'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 52.85,
+                        "y": 57.65
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006257bab9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x01_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint TP3",
+                    "pos": {
+                        "x": 54.85,
+                        "y": 82.35
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006257c3d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 102.25,
+                        "y": 102.35
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625800f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 56.1,
+                        "y": 78.35
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006258412a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 92.7,
+                        "y": 63.35
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000625856a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6408 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 79.41,
+                        "y": 65.89
+                    },
+                    "uuid": "663faa0b-0abe-4a38-a143-8f90590074f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (*)",
+                    "pos": {
+                        "x": 58.234,
+                        "y": 54.6909
+                    },
+                    "uuid": "b60a09a2-bc28-4373-8e9c-f416bb548c48"
+                },
+                {
+                    "description": "Footprint text of U1 (*)",
+                    "pos": {
+                        "x": 58.234,
+                        "y": 54.6909
+                    },
+                    "uuid": "d1abe02b-2a0a-4277-9d92-a9bfb711bf2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of U7 (1)",
+                    "pos": {
+                        "x": 49.813,
+                        "y": 126.4264
+                    },
+                    "uuid": "7eac74a1-e839-4060-9359-88f0fac934fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of U7 (BOTTOM SIDE)",
+                    "pos": {
+                        "x": 56.6202,
+                        "y": 126.401
+                    },
+                    "uuid": "c961b84c-579b-4eb7-a128-afdd298701b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of U7 (33)",
+                    "pos": {
+                        "x": 90.326,
+                        "y": 126.4264
+                    },
+                    "uuid": "32f505ca-a580-4503-bc89-7ff684585132"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}

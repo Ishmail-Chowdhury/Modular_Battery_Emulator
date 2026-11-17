@@ -1,0 +1,7 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "board_lib") (type "Legacy") (uri "${KIPRJMOD}/Components/board_lib.lib") (options "") (descr "Original Pisa symbols"))
+ (lib (name "loghi") (type "Legacy") (uri "${KIPRJMOD}/Loghi/loghi.lib") (options "") (descr "Original Pisa artwork"))
+ (lib (name "temp_board_v0-cache") (type "Legacy") (uri "${KIPRJMOD}/temp_board_v0-cache.lib") (options "") (descr "Original project cache"))
+ (lib (name "Pisa_Temp") (type "KiCad") (uri "${KIPRJMOD}/Pisa_Temp.kicad_sym") (options "") (descr "BOM replacements; pin geometry retained from Pisa cache"))
+)

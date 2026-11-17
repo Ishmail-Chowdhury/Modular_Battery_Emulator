@@ -1,0 +1,39 @@
+{
+  "revision": "TEMP-LAYOUT-1",
+  "date": "2026-11-17",
+  "layout_errors": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "erc_errors": 0,
+  "erc_warnings": 235,
+  "layout_warnings": 53,
+  "warning_types": {
+    "lib_footprint_mismatch": 53
+  },
+  "warnings_inherited_from_original": true,
+  "no_rules_newly_disabled": true,
+  "copper_layers": 2,
+  "outline_unchanged": true,
+  "component_references": 65,
+  "fitted_parts": 34,
+  "physical_components_added": 0,
+  "unchanged_placements": 60,
+  "card_edge_geometry_unchanged": true,
+  "readback_channels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "readback_link": "R20 fitted, U7.22 -> T1.22 -> M1.34",
+  "readback_uses_adc_internal_mux": true,
+  "external_mux_required_for_one_temperature_card_per_backplane": false,
+  "two_board_rule": "Use separate TEMP_MISO inputs for the two M1.34 returns. Do not join continuously driven isolator outputs.",
+  "fpga_temperature_controller_integrated": false,
+  "assembled_spi_verified": false,
+  "pcb_sha256": "18e65d5a4ed663de1bc81db4ecca7326e25204942fdd383e0b66e611e21508b9"
+}

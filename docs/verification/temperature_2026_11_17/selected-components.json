@@ -1,0 +1,274 @@
+{
+  "C1": {
+    "mpn": "865060640001",
+    "manufacturer": "W\u00fcrth Elektronik",
+    "jlcpcb": "C2163595",
+    "value": "1uF / 50V",
+    "datasheet": "https://www.we-online.com/components/products/datasheet/865060640001.pdf",
+    "new_footprint": null
+  },
+  "C2": {
+    "mpn": "R75IN410050H4J",
+    "manufacturer": "KEMET",
+    "jlcpcb": "C3787691",
+    "value": "1uF / 250V PP",
+    "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/fdec8d56a5712412f4f1b87aba0e2de2.pdf?productCode=C3787691",
+    "new_footprint": "Capacitor_THT:C_Rect_L26.5mm_W7.0mm_P22.50mm_MKS4"
+  },
+  "C3": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "jlcpcb": "C14663",
+    "value": "100nF / 50V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+    "new_footprint": null
+  },
+  "C4": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "jlcpcb": "C14663",
+    "value": "100nF / 50V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+    "new_footprint": null
+  },
+  "C5": {
+    "mpn": "CL21B104KCFNNNE",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "jlcpcb": "C28233",
+    "value": "100nF / 100V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KCFNNNE_C28233.pdf",
+    "new_footprint": null
+  },
+  "C6": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "jlcpcb": "C14663",
+    "value": "100nF / 50V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+    "new_footprint": null
+  },
+  "C7": {
+    "mpn": "865080440002",
+    "manufacturer": "W\u00fcrth Elektronik",
+    "jlcpcb": "C2163477",
+    "value": "10uF / 25V",
+    "datasheet": "https://www.we-online.com/components/products/datasheet/865080440002.pdf",
+    "new_footprint": null
+  },
+  "C8": {
+    "mpn": "865080440002",
+    "manufacturer": "W\u00fcrth Elektronik",
+    "jlcpcb": "C2163477",
+    "value": "10uF / 25V",
+    "datasheet": "https://www.we-online.com/components/products/datasheet/865080440002.pdf",
+    "new_footprint": null
+  },
+  "C9": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "jlcpcb": "C14663",
+    "value": "100nF / 50V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+    "new_footprint": null
+  },
+  "C10": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "jlcpcb": "C14663",
+    "value": "100nF / 50V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+    "new_footprint": null
+  },
+  "C11": {
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "jlcpcb": "C14663",
+    "value": "100nF / 50V",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+    "new_footprint": null
+  },
+  "C12": {
+    "mpn": "865080440002",
+    "manufacturer": "W\u00fcrth Elektronik",
+    "jlcpcb": "C2163477",
+    "value": "10uF / 25V",
+    "datasheet": "https://www.we-online.com/components/products/datasheet/865080440002.pdf",
+    "new_footprint": null
+  },
+  "R1": {
+    "mpn": "0805W8F1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17414",
+    "value": "10k",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+    "new_footprint": null
+  },
+  "R2": {
+    "mpn": "0805W8F1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17414",
+    "value": "10k",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+    "new_footprint": null
+  },
+  "R4": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R6": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R7": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R8": {
+    "mpn": "0805W8F1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17414",
+    "value": "10k",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+    "new_footprint": null
+  },
+  "R9": {
+    "mpn": "0805W8F1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17414",
+    "value": "10k",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+    "new_footprint": null
+  },
+  "R12": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R13": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R14": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R15": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R16": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R18": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R20": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R21": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R22": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R23": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "R24": {
+    "mpn": "0805W8F0000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "jlcpcb": "C17477",
+    "value": "0",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F330MT5E_C127689.pdf",
+    "new_footprint": null
+  },
+  "U1": {
+    "mpn": "TLV2548CPWR",
+    "manufacturer": "Texas Instruments",
+    "jlcpcb": "C2670506",
+    "value": "TLV2548CPWR",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tlv2548.pdf",
+    "new_footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+  },
+  "U2": {
+    "mpn": "MAX14850ASE+",
+    "manufacturer": "Analog Devices / Maxim",
+    "jlcpcb": "C143356",
+    "value": "MAX14850ASE+",
+    "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14850.pdf",
+    "new_footprint": null
+  },
+  "U3": {
+    "mpn": "SPAN02C-05",
+    "manufacturer": "Mean Well",
+    "jlcpcb": "C6681122",
+    "value": "SPAN02C-05",
+    "datasheet": "https://www.meanwellaustralia.com.au/sites/default/files/2025-01/MEAN%20WELL%20SPAN02%20DPAN02%20Data%20Sheet.pdf",
+    "new_footprint": "Temp:SPAN02C-05_SIP-8"
+  },
+  "U8": {
+    "mpn": "DAC128S085CIMT/NOPB",
+    "manufacturer": "Texas Instruments",
+    "jlcpcb": "C1554478",
+    "value": "DAC128S085CIMT/NOPB",
+    "datasheet": "https://www.ti.com/lit/gpn/dac128s085",
+    "new_footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+  }
+}

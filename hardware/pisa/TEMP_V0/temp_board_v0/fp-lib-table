@@ -1,0 +1,6 @@
+(fp_lib_table
+ (lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/Components/footprints.pretty") (options "") (descr "Original Pisa footprints"))
+ (lib (name "Connettori") (type "KiCad") (uri "${KIPRJMOD}/Components/Connettori.pretty") (options "") (descr "Original Pisa connectors"))
+ (lib (name "loghi") (type "KiCad") (uri "${KIPRJMOD}/Loghi/loghi.pretty") (options "") (descr "Original Pisa artwork"))
+ (lib (name "Temp") (type "KiCad") (uri "${KIPRJMOD}/Temp.pretty") (options "") (descr "TEMP-LAYOUT-1 replacement footprints"))
+)
